@@ -2,9 +2,9 @@ import { PageHeader, SlideUpButton, ToggleButton, WarningBanner } from "../ui";
 
 export const SellItemPricePage = () => {
   return (
-    <div className="w-[500px]">
+    <div className="w-[500px] h-screen flex flex-col">
       <PageHeader text="가격 설정"></PageHeader>
-      <main>
+      <main className="flex-1">
         <section className="p-4">
           <input
             type="text"
@@ -49,7 +49,11 @@ export const SellItemPricePage = () => {
           </div>
         </section>
       </main>
-      <footer></footer>
+      <footer className="p-4 sticky bottom-0 bg-white">
+        <button className="w-full bg-orange-400 p-2 rounded-lg text-white">
+          완료
+        </button>
+      </footer>
     </div>
   );
 };
