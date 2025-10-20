@@ -1,9 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
-import { SellItemPage } from "../pages";
+import {
+  SellItemLocationPage,
+  SellItemPage,
+  SellItemPricePage,
+} from "../pages";
 
 export const router = createBrowserRouter([
   {
-    path: "",
+    path: "/",
     element: <SellItemPage />,
+  },
+  {
+    path: "/price",
+    element: <SellItemPricePage />,
+  },
+  {
+    path: "/location",
+    element: <SellItemLocationPage />,
   },
 ]);
