@@ -1,4 +1,4 @@
-import type { ItemTagType } from "../types";
+import type { ItemTagType, SellingTagType } from "../types";
 
 export const itemTags: ItemTagType[] = [
   {
@@ -36,4 +36,15 @@ export const ITEM_TAGS: ItemTagType[] = [
   { value: "식물", name: "식물" },
   { value: "기타중고물품", name: "기타 중고물품" },
   { value: "삽니다", name: "삽니다" },
+];
+
+export const SELLING_TAGS: SellingTagType[] = [
+  {
+    type: "sell",
+    name: "판매하기",
+  },
+  {
+    type: "share",
+    name: "나눔하기",
+  },
 ];

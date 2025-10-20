@@ -5,12 +5,13 @@ import {
   LinkButton,
   PageHeader,
   SectionTitle,
+  SellingTag,
   ToggleButton,
   UploadImage,
 } from "../ui";
 import { useState } from "react";
-import type { ItemTagType } from "../types";
-import { itemTags } from "../data";
+import type { ItemTagType, SellingType } from "../types";
+import { itemTags, SELLING_TAGS } from "../data";
 
 export const SellItemPage = () => {
   const [locations, setLocations] = useState([
@@ -27,6 +28,8 @@ export const SellItemPage = () => {
   ]);
 
   const [tags, setTags] = useState<ItemTagType[]>([]);
+
+  const [sellingTag, setSellingTag] = useState<SellingType>("sell");
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -52,6 +55,10 @@ export const SellItemPage = () => {
     } else {
       setTags(tags.filter((t) => t.value !== tag.value));
     }
+  };
+
+  const handleSellingTag = (tag: SellingType) => {
+    setSellingTag(tag);
   };
 
   const handleItemModal = () => {
@@ -113,11 +120,34 @@ export const SellItemPage = () => {
         {/* 거래 방식 */}
         <section className="p-4 space-y-4">
           <SectionTitle text="거래 방식" />
-          <LinkButton text="W 가격을 입력해주세요" to="/price" />
-          <div className="flex gap-2 items-center">
-            <input type="checkbox" name="suggest" id="suggest" />
-            <label htmlFor="suggest">가격 제안 받기</label>
+          <div className="flex gap-3">
+            {SELLING_TAGS.map((tag) => (
+              <SellingTag
+                tag={tag}
+                isChecked={tag.type === sellingTag}
+                onClick={handleSellingTag}
+              />
+            ))}
           </div>
+          {sellingTag === "sell" ? (
+            <div className="space-y-2">
+              <LinkButton text="W 가격을 입력해주세요" to="/price" />
+              <div className="flex gap-2 items-center">
+                <input type="checkbox" name="suggest" id="suggest" />
+                <label htmlFor="suggest">가격 제안 받기</label>
+              </div>
+            </div>
+          ) : (
+            <div className="space-y-2">
+              <div className="border p-4 border-gray-200 rounded-lg bg-blue-50">
+                <p className="text-gray-300">W 0</p>
+              </div>
+              <div className="flex gap-2 items-center">
+                <input type="checkbox" name="share" id="share" />
+                <label htmlFor="share">나눔 신청 받기</label>
+              </div>
+            </div>
+          )}
         </section>
         {/* 거래 희망 장소 */}
         <section className="p-4 space-y-4">

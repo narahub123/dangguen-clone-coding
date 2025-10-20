@@ -4,3 +4,4 @@ export * from "./ItemTag";
 export * from "./LinkButton";
 export * from "./SectionTitle";
 export * from "./ItemListModal";
+export * from "./SellingTag";
