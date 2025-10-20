@@ -1,4 +1,10 @@
-import { PageHeader, SlideUpButton, ToggleButton, WarningBanner } from "../ui";
+import {
+  Button,
+  PageHeader,
+  SlideUpButton,
+  ToggleButton,
+  WarningBanner,
+} from "../ui";
 
 export const SellItemPricePage = () => {
   return (
@@ -50,9 +56,7 @@ export const SellItemPricePage = () => {
         </section>
       </main>
       <footer className="p-4 sticky bottom-0 bg-white">
-        <button className="w-full bg-orange-400 p-2 rounded-lg text-white">
-          완료
-        </button>
+        <Button className="w-full">완료</Button>
       </footer>
     </div>
   );

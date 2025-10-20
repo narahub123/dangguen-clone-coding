@@ -1,4 +1,4 @@
-import { PageHeader } from "../ui";
+import { Button, PageHeader } from "../ui";
 
 export const SellItemLocationPage = () => {
   return (
@@ -15,9 +15,7 @@ export const SellItemLocationPage = () => {
         <section>맵</section>
       </main>
       <footer className="p-4 sticky bottom-0 bg-white">
-        <button className="w-full bg-orange-400 p-2 rounded-lg text-white">
-          선택 완료
-        </button>
+        <Button className="w-full">선택완료</Button>
       </footer>
     </div>
   );

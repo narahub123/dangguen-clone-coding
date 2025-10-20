@@ -1,5 +1,6 @@
 import { LuChevronRight } from "react-icons/lu";
 import {
+  Button,
   ItemListModal,
   ItemTag,
   LinkButton,
@@ -184,9 +185,7 @@ export const SellItemPage = () => {
         </section>
       </main>
       <footer className="p-4 sticky bottom-0 bg-white">
-        <button className="w-full bg-orange-400 p-2 rounded-lg text-white">
-          작성 완료
-        </button>
+        <Button className="w-full">작성 완료</Button>
       </footer>
     </div>
   );
