@@ -14,7 +14,7 @@ export const UploadImage = () => {
 
   return (
     <button
-      className="px-4 py-2 border flex flex-col items-center justify-center rounded-md text-gray-400"
+      className="px-4 py-2 border flex flex-col items-center justify-center rounded-md text-gray-400 cursor-pointer"
       onClick={handleClick}
     >
       <input type="file" name="" id="" ref={inputRef} hidden />

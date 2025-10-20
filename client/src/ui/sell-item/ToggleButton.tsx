@@ -15,7 +15,7 @@ export const ToggleButton: FC<ToggleButtonProps> = ({ id, isOn, onClick }) => {
       onClick={() => onClick(id)}
     >
       <div
-        className={`w-20 h-10 rounded-3xl relative 
+        className={`w-20 h-10 rounded-3xl relative cursor-pointer
               ${isOn ? "bg-emerald-400" : "bg-gray-300"}
               transition-colors duration-300 ease-in-out`}
       >
