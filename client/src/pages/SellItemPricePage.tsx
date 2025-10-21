@@ -1,17 +1,21 @@
 import { useState, type ChangeEvent } from "react";
 import {
   Button,
+  EndDateSheet,
   PageHeader,
   SlideUpButton,
   ToggleButton,
   WarningBanner,
 } from "../ui";
+import MinPriceSheet from "../ui/price/MinPriceSheet";
 
 const PRICE_MIN = 5000;
 
 export const SellItemPricePage = () => {
   const [price, setPrice] = useState(0);
   const [isAuto, setIsAuto] = useState(false);
+  const [isEndDateOpen, setIsEndDateOpen] = useState(false);
+  const [isMinPriceOpen, setIsMinPriceOpen] = useState(false);
 
   // 가격 상태 변경
   const handlePriceChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -25,8 +29,19 @@ export const SellItemPricePage = () => {
   const handleAutoPrice = () => {
     setIsAuto(!isAuto);
   };
+
+  const onEndDateClose = () => {
+    setIsEndDateOpen(false);
+  };
+
+  const onMinPriceClose = () => {
+    setIsMinPriceOpen(false);
+  };
+
   return (
     <div className="w-[500px] h-screen flex flex-col">
+      <EndDateSheet isOpen={isEndDateOpen} onClose={onEndDateClose} />
+      <MinPriceSheet isOpen={isMinPriceOpen} onClose={onMinPriceClose} />
       <PageHeader text="가격 설정"></PageHeader>
       <main className="flex-1">
         <section className="p-4">
@@ -67,7 +82,12 @@ export const SellItemPricePage = () => {
             </p>
           </div>
           <div>
-            <SlideUpButton text="종료일을 선택해주세요" onClick={() => {}} />
+            <SlideUpButton
+              text="종료일을 선택해주세요"
+              onClick={() => {
+                setIsEndDateOpen(true);
+              }}
+            />
           </div>
         </section>
         <section className="p-4 space-y-4">
@@ -78,7 +98,12 @@ export const SellItemPricePage = () => {
             </p>
           </div>
           <div>
-            <SlideUpButton text="최저 가격을 선택해주세요" onClick={() => {}} />
+            <SlideUpButton
+              text="최저 가격을 선택해주세요"
+              onClick={() => {
+                setIsMinPriceOpen(true);
+              }}
+            />
           </div>
         </section>
       </main>
