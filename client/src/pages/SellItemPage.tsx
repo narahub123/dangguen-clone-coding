@@ -1,6 +1,7 @@
 import { LuChevronRight } from "react-icons/lu";
 import {
   Button,
+  CommonPhraseSheet,
   ItemListModal,
   ItemTag,
   LinkButton,
@@ -78,6 +79,7 @@ export const SellItemPage = () => {
         tags={tags}
         onClose={handleClose}
       />
+      <CommonPhraseSheet onClose={() => {}} />
       {/* 헤더 */}
       <PageHeader text="내 물건 팔기">
         <button>임시저장</button>

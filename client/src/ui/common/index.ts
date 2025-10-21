@@ -3,3 +3,6 @@ export * from "./PageHeader";
 export * from "./PageTitle";
 export * from "./WarningBanner";
 export * from "./Button";
+export * from "./BottomSheet";
+export * from "./Overlay";
+export * from "./DragAndResizeHandleIcon";

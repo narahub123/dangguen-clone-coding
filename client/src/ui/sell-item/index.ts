@@ -5,3 +5,4 @@ export * from "./LinkButton";
 export * from "./SectionTitle";
 export * from "./ItemListModal";
 export * from "./SellingTag";
+export * from "./CommonPhraseSheet";
