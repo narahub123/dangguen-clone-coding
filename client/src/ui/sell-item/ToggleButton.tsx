@@ -4,6 +4,7 @@ type ToggleProps = {
   onClick: (id: string) => void;
   size?: number;
   className?: string;
+  disabled?: boolean;
 };
 
 export const ToggleButton = ({
@@ -12,6 +13,7 @@ export const ToggleButton = ({
   onClick,
   size = 24,
   className = "",
+  disabled = false,
 }: ToggleProps) => {
   // 치수 계산 (노브: size)
   const knob = size; // 노브 지름
@@ -23,11 +25,13 @@ export const ToggleButton = ({
 
   return (
     <div
-      className={`rounded-3xl flex justify-center items-center cursor-pointer
+      className={`rounded-3xl flex justify-center items-center ${
+        disabled ? "" : "cursor-pointer"
+      }
                   ${isOn ? "bg-orange-400" : "bg-gray-200"}
                   transition-colors duration-300 ease-in-out ${className}`}
       style={{ width: containerW, height: containerH }}
-      onClick={() => onClick(id)}
+      onClick={disabled ? undefined : () => onClick(id)}
       role="switch"
       aria-checked={isOn}
     >

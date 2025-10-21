@@ -1,3 +1,4 @@
+import { useState, type ChangeEvent } from "react";
 import {
   Button,
   PageHeader,
@@ -6,7 +7,24 @@ import {
   WarningBanner,
 } from "../ui";
 
+const PRICE_MIN = 5000;
+
 export const SellItemPricePage = () => {
+  const [price, setPrice] = useState(0);
+  const [isAuto, setIsAuto] = useState(false);
+
+  // 가격 상태 변경
+  const handlePriceChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const price = Number(e.target.value);
+
+    setIsAuto(price >= PRICE_MIN);
+
+    setPrice(price);
+  };
+
+  const handleAutoPrice = () => {
+    setIsAuto(!isAuto);
+  };
   return (
     <div className="w-[500px] h-screen flex flex-col">
       <PageHeader text="가격 설정"></PageHeader>
@@ -16,11 +34,13 @@ export const SellItemPricePage = () => {
             type="text"
             placeholder="W 가격을 입력해주세요"
             className="p-3 w-full border border-gray-300 rounded-md outline-0"
+            value={price === 0 ? "" : price}
+            onChange={handlePriceChange}
           />
         </section>
         <hr className="border-0 h-2 bg-gray-200" />
-        <section className="p-4">
-          <div className="flex border-b border-gray-200">
+        <section className="p-4 border-b border-gray-200">
+          <div className="flex ">
             <div>
               <p className="font-bold">자동 판매 모드</p>
               <p>
@@ -28,9 +48,16 @@ export const SellItemPricePage = () => {
                 가격을 내리며 판매을 도와드려요.
               </p>
             </div>
-            <ToggleButton id="" onClick={() => {}} isOn={false} />
+            <ToggleButton
+              id=""
+              onClick={handleAutoPrice}
+              isOn={isAuto}
+              disabled={price < PRICE_MIN}
+            />
           </div>
-          <WarningBanner text="최소 5000원부터 자동 판매 모드를 사용할 수 있어요." />
+          {price < PRICE_MIN && (
+            <WarningBanner text="최소 5000원부터 자동 판매 모드를 사용할 수 있어요." />
+          )}
         </section>
         <section className="p-4 space-y-4">
           <div>
