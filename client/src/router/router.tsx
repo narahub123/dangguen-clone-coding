@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import {
+  CommonPhrasePage,
   SellItemLocationPage,
   SellItemPage,
   SellItemPricePage,
@@ -17,5 +18,9 @@ export const router = createBrowserRouter([
   {
     path: "/location",
     element: <SellItemLocationPage />,
+  },
+  {
+    path: "/common-phrase",
+    element: <CommonPhrasePage />,
   },
 ]);

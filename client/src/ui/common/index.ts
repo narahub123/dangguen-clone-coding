@@ -6,3 +6,4 @@ export * from "./Button";
 export * from "./BottomSheet";
 export * from "./Overlay";
 export * from "./DragAndResizeHandleIcon";
+export * from "./PageFooter";

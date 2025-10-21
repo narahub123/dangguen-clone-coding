@@ -17,7 +17,9 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   ...props
 }) => {
   const className = [
-    "bg-orange-400 p-2 rounded-lg text-white",
+    `${
+      props.disabled ? "bg-gray-200" : "bg-orange-400  cursor-pointer"
+    } p-2 rounded-lg text-white`,
     _className,
   ].join(" ");
   return <button {...props} className={className} />;
