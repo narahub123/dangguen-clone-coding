@@ -7,16 +7,18 @@ import { LuCheck } from "react-icons/lu";
 interface ItemListModalProps {
   isOpen: boolean;
   tags: ItemTagType[];
+  onClose: () => void;
   onClick: (tag: ItemTagType) => void;
 }
 
 export const ItemListModal: FC<ItemListModalProps> = ({
   isOpen,
   tags,
+  onClose,
   onClick,
 }) => {
   return (
-    <Modal isOpen={isOpen}>
+    <Modal isOpen={isOpen} onClose={onClose}>
       <div className="h-full flex flex-col">
         <div className="overflow-auto">
           {ITEM_TAGS.map((tag) => {

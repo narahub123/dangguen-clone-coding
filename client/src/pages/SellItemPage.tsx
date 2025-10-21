@@ -66,9 +66,18 @@ export const SellItemPage = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleClose = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="w-[500px]">
-      <ItemListModal isOpen={isOpen} onClick={handleItemTag} tags={tags} />
+      <ItemListModal
+        isOpen={isOpen}
+        onClick={handleItemTag}
+        tags={tags}
+        onClose={handleClose}
+      />
       {/* 헤더 */}
       <PageHeader text="내 물건 팔기">
         <button>임시저장</button>
