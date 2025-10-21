@@ -158,7 +158,7 @@ export const SellItemPage = () => {
             <div className="space-y-2">
               <LinkButton text="W 가격을 입력해주세요" to="/price" />
               <div className="flex gap-2 items-center">
-                <input type="checkbox" name="suggest" id="suggest" />
+                <input type="RadioBox" name="suggest" id="suggest" />
                 <label htmlFor="suggest">가격 제안 받기</label>
               </div>
             </div>
@@ -168,7 +168,7 @@ export const SellItemPage = () => {
                 <p className="text-gray-300">W 0</p>
               </div>
               <div className="flex gap-2 items-center">
-                <input type="checkbox" name="share" id="share" />
+                <input type="RadioBox" name="share" id="share" />
                 <label htmlFor="share">나눔 신청 받기</label>
               </div>
             </div>
