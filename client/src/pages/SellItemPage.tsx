@@ -35,6 +35,8 @@ export const SellItemPage = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
+  const [isCPOpen, setIsCPOpen] = useState(false);
+
   const handleClick = (id: string) => {
     setLocations((prev) => {
       return prev.map((p) => {
@@ -71,6 +73,10 @@ export const SellItemPage = () => {
     setIsOpen(false);
   };
 
+  const handleCPClose = () => {
+    setIsCPOpen(false);
+  };
+
   return (
     <div className="w-[500px]">
       <ItemListModal
@@ -79,7 +85,7 @@ export const SellItemPage = () => {
         tags={tags}
         onClose={handleClose}
       />
-      <CommonPhraseSheet onClose={() => {}} />
+      <CommonPhraseSheet onClose={handleCPClose} isOpen={isCPOpen} />
       {/* 헤더 */}
       <PageHeader text="내 물건 팔기">
         <button>임시저장</button>

@@ -2,12 +2,16 @@ import type { FC } from "react";
 import { BottomSheet, DragAndResizeHandleIcon } from "../common";
 
 interface CommonPhraseSheetProps {
+  isOpen: boolean;
   onClose: () => void;
 }
 
-export const CommonPhraseSheet: FC<CommonPhraseSheetProps> = ({ onClose }) => {
+export const CommonPhraseSheet: FC<CommonPhraseSheetProps> = ({
+  isOpen,
+  onClose,
+}) => {
   return (
-    <BottomSheet onClose={onClose}>
+    <BottomSheet onClose={onClose} isOpen={isOpen}>
       <div className="w-full h-full flex flex-col">
         <div className="h-6 w-full flex justify-center">
           <DragAndResizeHandleIcon />

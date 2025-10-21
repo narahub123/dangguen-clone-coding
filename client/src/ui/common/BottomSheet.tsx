@@ -3,13 +3,16 @@ import { Overlay } from "./Overlay";
 import { createPortal } from "react-dom";
 
 interface BottomSheetProps {
+  isOpen: boolean;
   onClose: () => void;
 }
 
 export const BottomSheet: FC<PropsWithChildren<BottomSheetProps>> = ({
   children,
+  isOpen,
   onClose,
 }) => {
+  if (!isOpen) return;
   return createPortal(
     <div className="fixed inset-0 top-0 left-0 w-[500px] ">
       <Overlay onClose={onClose} />
