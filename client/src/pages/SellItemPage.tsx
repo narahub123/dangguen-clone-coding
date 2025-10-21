@@ -73,6 +73,10 @@ export const SellItemPage = () => {
     setIsOpen(false);
   };
 
+  const handleCPOpen = () => {
+    setIsCPOpen(true);
+  };
+
   const handleCPClose = () => {
     setIsCPOpen(false);
   };
@@ -130,7 +134,10 @@ export const SellItemPage = () => {
             className="w-full border border-gray-300 rounded-xl"
           ></textarea>
           <div>
-            <button className="py-2 px-4 font-bold bg-gray-200 rounded-md cursor-pointer">
+            <button
+              className="py-2 px-4 font-bold bg-gray-200 rounded-md cursor-pointer"
+              onClick={handleCPOpen}
+            >
               자주 쓰는 문구
             </button>
           </div>
