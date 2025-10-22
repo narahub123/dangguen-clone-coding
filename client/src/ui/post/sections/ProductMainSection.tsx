@@ -10,7 +10,9 @@ export const ProductMainSection = () => {
         <p className="font-bold text-2xl">520,000원</p>
       </div>
       <div className="flex text-sm gap-2 text-gray-400">
-        <Link to="/">디지털기기</Link>
+        <Link to="/" className="underline">
+          디지털기기
+        </Link>
         {/* TODO: 날짜 계산 */}
         <p>2일전</p>
       </div>
