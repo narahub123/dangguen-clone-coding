@@ -1,6 +1,7 @@
-import type { FC } from "react";
+import { useState, type FC } from "react";
 import { defaultProfileImage } from "../../../asset";
 import { Link } from "react-router-dom";
+import { MannerSheet } from "../../../ui";
 
 interface UserInfoSectionProps {
   username: string;
@@ -17,8 +18,16 @@ export const UserInfoSection: FC<UserInfoSectionProps> = ({
   profileImage,
   userId,
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const onOpen = () => {
+    setIsOpen(true);
+  };
+  const onClose = () => {
+    setIsOpen(false);
+  };
   return (
     <section className="p-4 border-b border-gray-200">
+      <MannerSheet isOpen={isOpen} onClose={onClose} />
       <div className="w-full flex justify-between items-center">
         <div className="flex items-center gap-2">
           {/* 사용자 사진 */}
@@ -43,7 +52,10 @@ export const UserInfoSection: FC<UserInfoSectionProps> = ({
           {/* TODO: 온도에 따른 이모지 변경 */}
           <div>{temp}😪</div>
           <div>
-            <button className="text-sm text-gray-400 underline">
+            <button
+              className="text-sm text-gray-400 underline cursor-pointer"
+              onClick={onOpen}
+            >
               매너온도
             </button>
           </div>

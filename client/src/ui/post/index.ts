@@ -4,3 +4,4 @@ export * from "./PostFooter";
 export * from "./ProductCard";
 export * from "./LightBox";
 export * from "./PostReportSheet";
+export * from "./MannerSheet";
