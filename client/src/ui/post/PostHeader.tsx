@@ -7,9 +7,13 @@ import { Link, useNavigate } from "react-router-dom";
 
 interface PostHeaderProps {
   isOver: boolean;
+  onPostReportOpen: () => void;
 }
 
-export const PostHeader: FC<PostHeaderProps> = ({ isOver }) => {
+export const PostHeader: FC<PostHeaderProps> = ({
+  isOver,
+  onPostReportOpen,
+}) => {
   const navigate = useNavigate();
 
   const handleGoback = () => {
@@ -45,7 +49,11 @@ export const PostHeader: FC<PostHeaderProps> = ({ isOver }) => {
           <PiShareNetwork />
         </button>
         {/* 더보기 */}
-        <button className="text-2xl p-2 cursor-pointer" title="더보기">
+        <button
+          className="text-2xl p-2 cursor-pointer"
+          title="더보기"
+          onClick={onPostReportOpen}
+        >
           <IoMdMore />
         </button>
       </div>

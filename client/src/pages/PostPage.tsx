@@ -8,6 +8,7 @@ import {
   NotificationSection,
   PostFooter,
   PostHeader,
+  PostReportSheet,
   ProductDetailSection,
   ProductMainSection,
   SimiliarProductsSection,
@@ -19,6 +20,7 @@ export const PostPage = () => {
   const [post, setPost] = useState<PostType>();
   const [user, setUser] = useState<UserType>();
   const [isLightBoxOpen, setIsLightBoxOpen] = useState(false);
+  const [isPostReportOpen, setIsPostReportOpen] = useState(false);
   const [isOver, setIsOver] = useState(true);
   const [sentinelEl, setSentinelEl] = useState<HTMLDivElement | null>(null);
   const setSentinelRef = useCallback((node: HTMLDivElement | null) => {
@@ -105,6 +107,13 @@ export const PostPage = () => {
     setIsLightBoxOpen(false);
   };
 
+  const onPostReportOpen = () => {
+    setIsPostReportOpen(true);
+  };
+  const onPostReportClose = () => {
+    setIsPostReportOpen(false);
+  };
+
   console.log(user);
 
   if (!post || !user) return null;
@@ -116,7 +125,7 @@ export const PostPage = () => {
         isOpen={isLightBoxOpen}
         onClose={onLightBoxClose}
       />
-      <PostHeader isOver={isOver} />
+      <PostHeader isOver={isOver} onPostReportOpen={onPostReportOpen} />
       <main>
         <ImageSection
           images={post.images}
@@ -142,6 +151,7 @@ export const PostPage = () => {
         <UserProductsSection username={post.username} userId={post.userId} />
         <AdvertisementSection />
       </main>
+      <PostReportSheet isOpen={isPostReportOpen} onClose={onPostReportClose} />
       <PostFooter
         isLiked={user.likes.includes(post.postId)}
         onLikeClick={handleClickLikes}
