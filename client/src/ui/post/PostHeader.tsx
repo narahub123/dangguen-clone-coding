@@ -11,7 +11,7 @@ export const PostHeader = () => {
     navigate(-1);
   };
   return (
-    <header className="w-full flex justify-between sticky top-0 left-0">
+    <header className="w-[500px] flex justify-between fixed top-0 left-0 z-20">
       <div className="flex">
         {/* 뒤로가기 */}
         <button
