@@ -93,7 +93,7 @@ export const PostPage = () => {
         <AdvertisementSection />
         <SimiliarProductsSection />
         <NotificationSection />
-        <UserProductsSection username={post.username} />
+        <UserProductsSection username={post.username} userId={post.userId} />
         <AdvertisementSection />
       </main>
       <PostFooter

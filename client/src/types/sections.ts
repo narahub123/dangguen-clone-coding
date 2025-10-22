@@ -17,6 +17,12 @@ export interface AuthorType {
   location: string;
 }
 
+export interface ProductType {
+  postId: string;
+  title: string;
+  price: number;
+  image: string;
+}
 export interface PostType {
   postId: string;
   userId: string;

@@ -1,4 +1,5 @@
-import type { ItemTagType, SellingTagType } from "../types";
+import { example1, example2, example3 } from "../asset";
+import type { ItemTagType, ProductType, SellingTagType } from "../types";
 
 export const itemTags: ItemTagType[] = [
   {
@@ -46,5 +47,26 @@ export const SELLING_TAGS: SellingTagType[] = [
   {
     type: "share",
     name: "나눔하기",
+  },
+];
+
+export const exampleProducts: ProductType[] = [
+  {
+    postId: "1",
+    title: "아베크롬비 퍼스트 인스팅트 향기",
+    price: 45000,
+    image: example1,
+  },
+  {
+    postId: "2",
+    title: "맥북 에어 M1, 렘8, ssd 256g",
+    price: 345000,
+    image: example2,
+  },
+  {
+    postId: "3",
+    title: "xxxxxx xxxx xxx xxxxxxxx sss",
+    price: 50000,
+    image: example3,
   },
 ];
