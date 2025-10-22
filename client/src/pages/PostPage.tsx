@@ -4,6 +4,7 @@ import type { PostType, UserType } from "../types";
 import {
   AdvertisementSection,
   ImageSection,
+  LightBox,
   NotificationSection,
   PostFooter,
   PostHeader,
@@ -17,6 +18,7 @@ import {
 export const PostPage = () => {
   const [post, setPost] = useState<PostType>();
   const [user, setUser] = useState<UserType>();
+  const [isLightBoxOpen, setIsLightBoxOpen] = useState(false);
   const [isOver, setIsOver] = useState(true);
   const [sentinelEl, setSentinelEl] = useState<HTMLDivElement | null>(null);
   const setSentinelRef = useCallback((node: HTMLDivElement | null) => {
@@ -96,15 +98,31 @@ export const PostPage = () => {
     }
   };
 
+  const onLightBoxOpen = () => {
+    setIsLightBoxOpen(true);
+  };
+  const onLightBoxClose = () => {
+    setIsLightBoxOpen(false);
+  };
+
   console.log(user);
 
   if (!post || !user) return null;
 
   return (
     <div className="w-[500px]">
+      <LightBox
+        images={post.images}
+        isOpen={isLightBoxOpen}
+        onClose={onLightBoxClose}
+      />
       <PostHeader isOver={isOver} />
       <main>
-        <ImageSection images={post.images} ref={setSentinelRef} />
+        <ImageSection
+          images={post.images}
+          ref={setSentinelRef}
+          onOpen={onLightBoxOpen}
+        />
         <UserInfoSection
           username={post.username}
           location={post.location}

@@ -2,20 +2,18 @@ import { forwardRef, useState, type FC } from "react";
 
 interface ImageSectionProps {
   images: string[];
+  onOpen: () => void;
 }
 
 export const ImageSection = forwardRef<HTMLDivElement, ImageSectionProps>(
-  ({ images }, ref) => {
+  ({ images, onOpen }, ref) => {
     const [curIndex, setCurIndex] = useState(0);
-
-    // 클릭 핸들러
-    const handleClick = () => {};
 
     // 슬라이드 핸들러
     const handleMotion = () => {};
 
     return (
-      <section className="relative" ref={ref}>
+      <section className="relative cursor-pointer" ref={ref} onClick={onOpen}>
         <div className="w-full aspect-square relative">
           {/* TODO: 슬라이드로 변경할 것 */}
           <div className="absolute top-0 left-0 flex overflow-hidden">
@@ -23,7 +21,7 @@ export const ImageSection = forwardRef<HTMLDivElement, ImageSectionProps>(
               <img
                 src={image}
                 alt=""
-                className="w-full aspect-square cursor-pointer"
+                className="w-full aspect-square"
                 key={image}
               />
             ))}
@@ -32,7 +30,6 @@ export const ImageSection = forwardRef<HTMLDivElement, ImageSectionProps>(
             curIndex + 1
           }/${images.length}`}</span>
         </div>
-        {/* <div ref={ref} className="absolute bottom-0 w-full h-2" />G */}
       </section>
     );
   }
