@@ -25,7 +25,7 @@ export const SimiliarProductsSection: FC<SimiliarProductsSection> = ({}) => {
       />
       <div className="grid grid-cols-2 gap-2">
         {products.map((product) => (
-          <ProductCard product={product} />
+          <ProductCard product={product} key={product.postId} />
         ))}
       </div>
     </section>

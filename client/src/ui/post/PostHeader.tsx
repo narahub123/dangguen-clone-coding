@@ -1,17 +1,30 @@
+import type { FC } from "react";
 import { GoHome } from "react-icons/go";
 import { IoMdMore } from "react-icons/io";
 import { LuChevronLeft } from "react-icons/lu";
 import { PiShareNetwork } from "react-icons/pi";
 import { Link, useNavigate } from "react-router-dom";
 
-export const PostHeader = () => {
+interface PostHeaderProps {
+  isOver: boolean;
+}
+
+export const PostHeader: FC<PostHeaderProps> = ({ isOver }) => {
   const navigate = useNavigate();
 
   const handleGoback = () => {
     navigate(-1);
   };
   return (
-    <header className="w-[500px] flex justify-between fixed top-0 left-0 z-20">
+    <header
+      className={`w-[500px] flex justify-between fixed top-0 left-0 z-20
+    transition-all duration-300 ease-out
+    ${
+      isOver
+        ? "bg-transparent text-white shadow-none"
+        : "bg-white text-gray-900 shadow-md"
+    }`}
+    >
       <div className="flex">
         {/* 뒤로가기 */}
         <button

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { example1, example2, example3 } from "../asset";
 import type { PostType, UserType } from "../types";
 import {
@@ -17,6 +17,11 @@ import {
 export const PostPage = () => {
   const [post, setPost] = useState<PostType>();
   const [user, setUser] = useState<UserType>();
+  const [isOver, setIsOver] = useState(true);
+  const [sentinelEl, setSentinelEl] = useState<HTMLDivElement | null>(null);
+  const setSentinelRef = useCallback((node: HTMLDivElement | null) => {
+    setSentinelEl(node); // node가 붙거나 떨어질 때마다 리렌더 발생
+  }, []);
 
   // post 초기화
   useEffect(() => {
@@ -53,6 +58,29 @@ export const PostPage = () => {
     setUser(user);
   }, []);
 
+  //
+  useEffect(() => {
+    if (!sentinelEl) return;
+
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        console.log(entry);
+        setIsOver(entry.isIntersecting);
+      },
+      {
+        root: null, // 뷰포트 (스크롤 컨테이너 쓰면 해당 엘리먼트를 넣기)
+        rootMargin: "0px", // 사전 로딩 여유 공간 Ex) "200px 0px"
+        threshold: 0.1, // 10% 보이면 true
+      }
+    );
+
+    io.observe(sentinelEl);
+
+    return () => io.unobserve(sentinelEl);
+  }, [sentinelEl]);
+
+  console.log(isOver);
+
   const handleClickLikes = () => {
     if (!user || !post) return;
     if (!user.likes.includes(post.postId)) {
@@ -74,9 +102,9 @@ export const PostPage = () => {
 
   return (
     <div className="w-[500px]">
-      <PostHeader />
+      <PostHeader isOver={isOver} />
       <main>
-        <ImageSection images={post.images} />
+        <ImageSection images={post.images} ref={setSentinelRef} />
         <UserInfoSection
           username={post.username}
           location={post.location}
