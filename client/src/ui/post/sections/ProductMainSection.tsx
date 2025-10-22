@@ -1,20 +1,35 @@
+import type { FC } from "react";
 import { Link } from "react-router-dom";
+import type { CategoryType } from "../../../types";
 
-export const ProductMainSection = () => {
+interface ProductMainSectionProps {
+  title: string;
+  price: number;
+  categories: CategoryType[];
+  postDate: string;
+}
+
+export const ProductMainSection: FC<ProductMainSectionProps> = ({
+  title,
+  price,
+  categories,
+  postDate,
+}) => {
   return (
     <section className="p-4">
       <div>
-        <p className="font-bold text-2xl">
-          맥북 에어 M1 실버, 램8, ssd256 (매직 마우스 포함)
-        </p>
-        <p className="font-bold text-2xl">520,000원</p>
+        <p className="font-bold text-2xl">{title}</p>
+        <p className="font-bold text-2xl">{`${price}원`}</p>
       </div>
       <div className="flex text-sm gap-2 text-gray-400">
-        <Link to="/" className="underline">
-          디지털기기
-        </Link>
+        {categories.map((c) => (
+          <Link to={`/search/${c.value}`} className="underline" key={c.value}>
+            {c.name}
+          </Link>
+        ))}
+
         {/* TODO: 날짜 계산 */}
-        <p>2일전</p>
+        <p>{postDate}</p>
       </div>
     </section>
   );

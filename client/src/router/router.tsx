@@ -13,6 +13,10 @@ export const router = createBrowserRouter([
     element: <SellItemPage />,
   },
   {
+    path: "/home",
+    element: <>홈</>,
+  },
+  {
     path: "/price",
     element: <SellItemPricePage />,
   },
@@ -32,5 +36,22 @@ export const router = createBrowserRouter([
         element: <PostPage />,
       },
     ],
+  },
+  {
+    path: "/users/:id",
+    element: <></>,
+    children: [
+      {
+        
+      }
+    ],
+  },
+  {
+    path: "/chats/:id",
+    element: <></>,
+  },
+  {
+    path: "/search/:location",
+    element: <></>,
   },
 ]);
