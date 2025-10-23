@@ -4,6 +4,7 @@ import {
   HomeHeader,
   HomeProductContainer,
   HomeTagContainer,
+  WriteButton,
 } from "../ui";
 import type { HomeProductType } from "../types";
 import { HomeProducts } from "../data";
@@ -27,6 +28,7 @@ export const HomePage = () => {
       <main>
         <HomeProductContainer products={products} />
       </main>
+      <WriteButton />
       <HomeFooter />
     </div>
   );

@@ -5,3 +5,4 @@ export * from "./HomeTagContainer";
 export * from "./HomeProductCard";
 export * from "./HomeProductContainer";
 export * from "./HomeFooter";
+export * from "./WriteButton";

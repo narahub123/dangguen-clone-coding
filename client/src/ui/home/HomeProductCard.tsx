@@ -22,9 +22,12 @@ export const HomeProductCard: FC<HomeProductCardProps> = ({ product }) => {
   };
 
   return (
-    <Link to={`/posts/${postId}`}>
+    <Link
+      to={`/posts/${postId}`}
+      className="w-full inline-block border-b border-gray-200 last:border-0"
+    >
       <PostReportSheet isOpen={isOpen} onClose={handleClose} />
-      <div className="flex border-b border-gray-200 py-4 last:border-b-0 gap-4">
+      <div className=" flex py-4  gap-4">
         {/* 이미지 */}
         <div>
           <img
