@@ -8,7 +8,7 @@ interface PageHeaderProps {
 
 export const PageHeader: FC<PageHeaderProps> = ({ text, children }) => {
   return (
-    <header className="w-full flex justify-between py-2 pr-4 border-b border-gray-200 sticky top-0 bg-white">
+    <header className="w-full flex justify-between py-2 pr-4 border-b border-gray-200 sticky top-0 bg-white items-center">
       <PageTitle text={text} />
       {children}
     </header>

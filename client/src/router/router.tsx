@@ -3,10 +3,22 @@ import {
   CommonPhrasePage,
   HomePage,
   PostPage,
+  ReportPage,
   SellItemLocationPage,
   SellItemPage,
   SellItemPricePage,
 } from "../pages";
+import {
+  ReportBans,
+  ReportFraud,
+  ReportInappropriate,
+  ReportLanding,
+  ReportListLayout,
+  ReportOtherService,
+  ReportProxy,
+  ReportSeller,
+  ReportUser,
+} from "../ui";
 
 export const router = createBrowserRouter([
   // 홈 페이지
@@ -131,6 +143,48 @@ export const router = createBrowserRouter([
   // 신고 페이지
   {
     path: "/reports",
-    element: <>신고페이지</>,
+    element: <ReportPage />,
+    children: [
+      {
+        path: "",
+        element: <ReportListLayout />,
+        children: [
+          {
+            index: true,
+            element: <ReportLanding />,
+          },
+          {
+            path: "bans",
+            element: <ReportBans />,
+          },
+          {
+            path: "fraud",
+            element: <ReportFraud />,
+          },
+          {
+            path: "other-services",
+            element: <ReportOtherService />,
+          },
+          {
+            path: "inappropriate",
+            element: <ReportInappropriate />,
+          },
+          {
+            path: "user",
+            element: <ReportUser />,
+          },
+        ],
+      },
+
+      {
+        path: "seller",
+        element: <ReportSeller />,
+      },
+
+      {
+        path: "proxy",
+        element: <ReportProxy />,
+      },
+    ],
   },
 ]);

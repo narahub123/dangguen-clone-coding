@@ -5,12 +5,14 @@ import { Link } from "react-router-dom";
 interface LinkButtonProps {
   text: string;
   to: string;
+  desc?: string;
   className?: string;
 }
 
 export const LinkButton: FC<LinkButtonProps> = ({
   to,
   text,
+  desc,
   className: _className,
 }) => {
   const className = [
@@ -19,7 +21,10 @@ export const LinkButton: FC<LinkButtonProps> = ({
   ].join(" ");
   return (
     <Link to={to} className={className}>
-      <p>{text}</p>
+      <span>
+        <p>{text}</p>
+        {desc && <p className="text-sm text-gray-500">{desc}</p>}
+      </span>
       <span className="text-2xl">
         <LuChevronRight />
       </span>
