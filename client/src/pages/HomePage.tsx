@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import {
+  HomeFooter,
   HomeHeader,
   HomeProductContainer,
   HomeTagContainer,
-  PageFooter,
 } from "../ui";
 import type { HomeProductType } from "../types";
 import { HomeProducts } from "../data";
@@ -27,7 +27,7 @@ export const HomePage = () => {
       <main>
         <HomeProductContainer products={products} />
       </main>
-      <PageFooter>푸터</PageFooter>
+      <HomeFooter />
     </div>
   );
 };
