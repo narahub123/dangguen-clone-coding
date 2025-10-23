@@ -1,5 +1,5 @@
 import { proxyText } from "../../../data";
-import { ReportLayout } from "../ReportLayout";
+import { ReportLayout } from "../../../ui";
 
 export const ReportProxy = () => {
   return (

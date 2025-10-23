@@ -1,5 +1,5 @@
 import { sellerText } from "../../../data";
-import { ReportLayout } from "../ReportLayout";
+import { ReportLayout } from "../../../ui";
 
 export const ReportSeller = () => {
   return (

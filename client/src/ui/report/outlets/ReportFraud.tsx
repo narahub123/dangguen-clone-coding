@@ -1,5 +1,5 @@
 import { fraudReports } from "../../../data";
-import { LinkButton } from "../../sell-item";
+import { LinkButton } from "../../../ui";
 
 export const ReportFraud = () => {
   return (

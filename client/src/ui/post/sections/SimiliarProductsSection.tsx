@@ -1,8 +1,7 @@
 import { useEffect, useState, type FC } from "react";
-import { LinkButton } from "../../sell-item";
 import type { ProductType } from "../../../types";
 import { exampleProducts } from "../../../data";
-import { ProductCard } from "../ProductCard";
+import { LinkButton, ProductCard } from "../../../ui";
 
 // 무엇을 전달해야 하는지 생각해보기
 interface SimiliarProductsSection {}

@@ -216,7 +216,7 @@ export const banReports = [
     desc: "예시: 주문 제작, 그림을 그려주는 행위 등",
   },
   {
-    path: "personal-information",
+    path: "", // personal-information
     text: "개인정보",
     desc: "신분증, 통장, 계정 포함",
   },
@@ -225,7 +225,11 @@ export const banReports = [
     text: "거래 금지 식품",
     desc: "식중독·소분·포장 개봉·훼손, 소비기한 경과 등",
   },
-  { path: "agricultural-products", text: "농수산물 판매", desc: "" },
+  {
+    path: "", // agricultural-products
+    text: "농수산물 판매",
+    desc: "",
+  },
   {
     path: "prohibited-cosmetics",
     text: "거래 금지 화장품",
@@ -247,12 +251,12 @@ export const banReports = [
     desc: "유사경찰장비, 소방복 및 유사 제복류, 군마물품 포함",
   },
   {
-    path: "government-supported-goods",
+    path: "", // government-supported-goods
     text: "정부 지원 물품",
     desc: "나라미, 지역사랑상품권, 온누리상품권, 각종 정부지원 바우처 포함",
   },
   {
-    path: "glasses-contact-lenses",
+    path: "", // glasses-contact-lenses
     text: "안경 / 콘택트렌즈",
     desc: "썬글라스, 컬러렌즈, 도수 선글라스, 도수 수정 포함",
   },
@@ -285,11 +289,19 @@ export const otherReports = [
     text: "[비즈니스] 서비스 제공/홍보",
     desc: "서비스를 제공하거나 홍보하는 행위",
   },
-  { path: "job-recruitment", text: "[알바] 구인구직", desc: "" },
-  { path: "real-estate", text: "[부동산] 거래", desc: "" },
+  {
+    path: "", // job-recruitment
+    text: "[알바] 구인구직",
+    desc: "",
+  },
+  {
+    path: "",
+    text: "[부동산] 거래", // real-estate
+    desc: "",
+  },
   { path: "used-car", text: "[중고차] 거래", desc: "" },
   {
-    path: "community-daily",
+    path: "", // community-daily
     text: "[동네생활] 일상/질문/모임",
     desc: "소소한 일상/질문과 같은 중고거래와 관계없는 게시글",
   },
@@ -304,7 +316,11 @@ export const inappropriateReports = [
     text: "나에게 구매 후 비싸게 재판매",
     desc: "",
   },
-  { path: "insult-or-defamation", text: "비방 / 저격", desc: "" },
+  {
+    path: "", // insult-or-defamation
+    text: "비방 / 저격",
+    desc: "",
+  },
   {
     path: "free-giveaway-or-money-request",
     text: "무료나눔 및 금전 요구 글",

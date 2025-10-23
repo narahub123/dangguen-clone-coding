@@ -1,7 +1,6 @@
 import { useEffect, useState, type FC } from "react";
-import { LinkButton } from "../../sell-item";
+import { LinkButton, ProductCard } from "../../../ui";
 import type { ProductType } from "../../../types";
-import { ProductCard } from "../ProductCard";
 import { exampleProducts } from "../../../data";
 
 interface UserProductsSectionProps {

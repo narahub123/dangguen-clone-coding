@@ -16,11 +16,17 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   className: _className,
   ...props
 }) => {
+  const hasCustomBackground =
+    typeof _className === "string" && /\bbg-[^\s]+/.test(_className);
+
   const className = [
-    `${
-      props.disabled ? "bg-gray-200" : "bg-orange-400  cursor-pointer"
-    } p-2 rounded-lg text-white`,
+    props.disabled
+      ? "bg-gray-200"
+      : `${hasCustomBackground ? "" : "bg-orange-400"} cursor-pointer`.trim(),
+    "p-2 rounded-lg text-white",
     _className,
-  ].join(" ");
+  ]
+    .filter(Boolean)
+    .join(" ");
   return <button {...props} className={className} />;
 };

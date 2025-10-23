@@ -1,4 +1,9 @@
-import type { FC, MouseEvent, PropsWithChildren } from "react";
+import {
+  useEffect,
+  type FC,
+  type MouseEvent,
+  type PropsWithChildren,
+} from "react";
 import { createPortal } from "react-dom";
 
 interface ModalProps {
@@ -17,10 +22,20 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
   height: _height = 90,
   className: _className,
 }) => {
-  const width = `w-${_width === "full" ? _width : _width + "%"}`;
-  const height = `h-${_width === "full" ? _height : _height + "%"}`;
+  const width = _width === "full" ? "w-full" : `w-[${_width}%]`;
+  const height = _height === "full" ? "h-full" : `h-[${_height}%]`;
 
   const className = [`${width} ${height} bg-white z-10`, _className].join(" ");
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [isOpen]);
+
   if (!isOpen) return;
 
   const handleClose = (e: MouseEvent) => {
@@ -29,12 +44,9 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
   };
 
   return createPortal(
-    <div className="absolute top-0 left-0  w-screen h-screen flex justify-center items-center">
+    <div className="fixed inset-0 w-[500px] flex justify-center items-center">
       {/* 오버레이 */}
-      <div
-        className="absolute top-0 left-0  w-screen h-screen bg-black/50"
-        onClick={handleClose}
-      />
+      <div className="absolute inset-0 bg-black/50" onClick={handleClose} />
       {/* 컨텐츠 */}
       <div className={className}>{children}</div>
     </div>,
