@@ -1,5 +1,6 @@
 import { example1, example2, example3 } from "../asset";
 import type {
+  HomeTagType,
   ItemTagType,
   ProductType,
   SellingTagType,
@@ -84,3 +85,18 @@ export const userExample: UserType = {
     { value: "gw", name: "개운동", checked: false },
   ],
 };
+
+export const homeTags: HomeTagType[] = [
+  {
+    value: "used",
+    name: "중고거래",
+  },
+  {
+    value: "near",
+    name: "가까운동네",
+  },
+  {
+    value: "estate",
+    name: "부동산",
+  },
+];

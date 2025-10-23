@@ -21,3 +21,8 @@ export interface UserType {
   username: string;
   turfs: TurfType[];
 }
+
+export interface HomeTagType {
+  value: string;
+  name: string;
+}
