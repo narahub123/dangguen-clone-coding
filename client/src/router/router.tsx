@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import {
   CommonPhrasePage,
+  HomePage,
   PostPage,
   SellItemLocationPage,
   SellItemPage,
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <>홈</>,
+    element: <HomePage />,
   },
   {
     path: "/price",
@@ -40,11 +41,7 @@ export const router = createBrowserRouter([
   {
     path: "/users/:id",
     element: <></>,
-    children: [
-      {
-        
-      }
-    ],
+    children: [{}],
   },
   {
     path: "/chats/:id",

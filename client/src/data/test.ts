@@ -1,5 +1,10 @@
 import { example1, example2, example3 } from "../asset";
-import type { ItemTagType, ProductType, SellingTagType } from "../types";
+import type {
+  ItemTagType,
+  ProductType,
+  SellingTagType,
+  UserType,
+} from "../types";
 
 export const itemTags: ItemTagType[] = [
   {
@@ -70,3 +75,12 @@ export const exampleProducts: ProductType[] = [
     image: example3,
   },
 ];
+
+export const userExample: UserType = {
+  userId: "xxx",
+  username: "그냥",
+  turfs: [
+    { value: "ys1", name: "역삼1동", checked: true },
+    { value: "gw", name: "개운동", checked: false },
+  ],
+};
