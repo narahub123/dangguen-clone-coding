@@ -1,4 +1,4 @@
-import type { FC, PropsWithChildren } from "react";
+import type { FC, MouseEvent, PropsWithChildren } from "react";
 import { createPortal } from "react-dom";
 
 interface ModalProps {
@@ -23,12 +23,17 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
   const className = [`${width} ${height} bg-white z-10`, _className].join(" ");
   if (!isOpen) return;
 
+  const handleClose = (e: MouseEvent) => {
+    e.stopPropagation();
+    onClose();
+  };
+
   return createPortal(
     <div className="absolute top-0 left-0  w-screen h-screen flex justify-center items-center">
       {/* 오버레이 */}
       <div
         className="absolute top-0 left-0  w-screen h-screen bg-black/50"
-        onClick={onClose}
+        onClick={handleClose}
       />
       {/* 컨텐츠 */}
       <div className={className}>{children}</div>

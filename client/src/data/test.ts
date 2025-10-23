@@ -1,5 +1,6 @@
 import { example1, example2, example3 } from "../asset";
 import type {
+  HomeProductType,
   HomeTagType,
   ItemTagType,
   ProductType,
@@ -98,5 +99,44 @@ export const homeTags: HomeTagType[] = [
   {
     value: "estate",
     name: "부동산",
+  },
+];
+
+export const HomeProducts: HomeProductType[] = [
+  {
+    postId: "1",
+    image: example1,
+    title: "아이패드 ",
+    location: "역삼1동",
+    postDate: new Date().toISOString(),
+    price: 430000,
+    meta: {
+      chats: 0,
+      likes: 1,
+    },
+  },
+  {
+    postId: "2",
+    image: example2,
+    title: "맥북 에어 M1 램8, ssd 128g",
+    location: "도곡동",
+    postDate: new Date().toISOString(),
+    price: 430000,
+    meta: {
+      chats: 2,
+      likes: 12,
+    },
+  },
+  {
+    postId: "3",
+    image: example3,
+    title: "맥북 에어 M1 램8, ssd 128g",
+    location: "양재동",
+    postDate: new Date().toISOString(),
+    price: 30000,
+    meta: {
+      chats: 10,
+      likes: 700,
+    },
   },
 ];

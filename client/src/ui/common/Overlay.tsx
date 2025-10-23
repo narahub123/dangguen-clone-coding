@@ -1,7 +1,7 @@
-import type { FC } from "react";
+import type { FC, MouseEvent } from "react";
 
 interface OverlayProps {
-  onClose: () => void;
+  onClose: (e: MouseEvent) => void;
 }
 
 export const Overlay: FC<OverlayProps> = ({ onClose }) => {

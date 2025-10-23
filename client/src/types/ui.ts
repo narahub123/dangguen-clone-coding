@@ -26,3 +26,16 @@ export interface HomeTagType {
   value: string;
   name: string;
 }
+
+export interface HomeProductType {
+  postId: string;
+  image: string;
+  title: string;
+  location: string;
+  postDate: string;
+  price: number;
+  meta: {
+    chats: number;
+    likes: number;
+  };
+}
