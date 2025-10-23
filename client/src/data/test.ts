@@ -85,6 +85,7 @@ export const userExample: UserType = {
     { value: "ys1", name: "역삼1동", checked: true },
     { value: "gw", name: "개운동", checked: false },
   ],
+  likes: [],
 };
 
 export const homeTags: HomeTagType[] = [

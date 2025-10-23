@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import { BottomSheet, DragAndResizeHandleIcon } from "../common";
 import { Link } from "react-router-dom";
+import { userExample } from "../../data";
 
 interface CommonPhraseSheetProps {
   isOpen: boolean;
@@ -11,6 +12,7 @@ export const CommonPhraseSheet: FC<CommonPhraseSheetProps> = ({
   isOpen,
   onClose,
 }) => {
+  const { userId } = userExample;
   return (
     <BottomSheet onClose={onClose} isOpen={isOpen}>
       <div className="w-full h-full flex flex-col">
@@ -19,7 +21,10 @@ export const CommonPhraseSheet: FC<CommonPhraseSheetProps> = ({
         </div>
         <div className="p-4 flex justify-between">
           <p className="font-bold text-xl">자주 쓰는 문구</p>
-          <Link to="/common-phrase" className="text-orange-400 cursor-pointer">
+          <Link
+            to={`/users/${userId}/common-phrase`}
+            className="text-orange-400 cursor-pointer"
+          >
             + 추가
           </Link>
         </div>

@@ -20,6 +20,7 @@ export interface UserType {
   userId: string;
   username: string;
   turfs: TurfType[];
+  likes: string[];
 }
 
 export interface HomeTagType {

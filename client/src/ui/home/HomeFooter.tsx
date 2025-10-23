@@ -4,8 +4,10 @@ import { GoHomeFill } from "react-icons/go";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { AiFillMessage } from "react-icons/ai";
 import { IoPerson } from "react-icons/io5";
+import { userExample } from "../../data";
 
 export const HomeFooter = () => {
+  const { userId } = userExample;
   return (
     <PageFooter>
       <div className="flex justify-around">
@@ -15,7 +17,7 @@ export const HomeFooter = () => {
               isActive ? "text-black" : "text-gray-400"
             }`
           }
-          to="/home"
+          to="/"
         >
           <div className="text-3xl">
             <GoHomeFill />
@@ -41,7 +43,7 @@ export const HomeFooter = () => {
               isActive ? "text-black" : "text-gray-400"
             }`
           }
-          to="/chats"
+          to={`/chats`}
         >
           <div className="text-3xl">
             <AiFillMessage />
@@ -54,7 +56,7 @@ export const HomeFooter = () => {
               isActive ? "text-black" : "text-gray-400"
             }`
           }
-          to="/mypage"
+          to={`/users/${userId}`}
         >
           <div className="text-3xl">
             <IoPerson />

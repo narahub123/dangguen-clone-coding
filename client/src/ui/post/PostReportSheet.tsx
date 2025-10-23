@@ -1,6 +1,7 @@
 import type { FC } from "react";
 import { BottomSheet, Button } from "../common";
 import { LuEyeOff, LuFlag } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 interface PostReportSheetProps {
   isOpen: boolean;
@@ -19,10 +20,13 @@ export const PostReportSheet: FC<PostReportSheetProps> = ({
             <LuEyeOff />
             <p>이 사용자의 글 보지 않기</p>
           </button>
-          <button className="flex gap-2 items-center px-4 py-2 text-red-400 cursor-pointer">
+          <Link
+            to="/reports"
+            className="flex gap-2 items-center px-4 py-2 text-red-400 cursor-pointer"
+          >
             <LuFlag />
             <p>신고하기</p>
-          </button>
+          </Link>
         </div>
         <div>
           <Button className="w-full" disabled>

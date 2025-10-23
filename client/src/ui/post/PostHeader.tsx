@@ -39,7 +39,7 @@ export const PostHeader: FC<PostHeaderProps> = ({
           <LuChevronLeft />
         </button>
         {/* 홈 이동 */}
-        <Link to="/home" className="text-2xl p-2 cursor-pointer" title="홈으로">
+        <Link to="/" className="text-2xl p-2 cursor-pointer" title="홈으로">
           <GoHome />
         </Link>
       </div>

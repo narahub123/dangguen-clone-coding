@@ -11,6 +11,7 @@ interface TurfModalProps {
 
 export const TurfModal: FC<TurfModalProps> = ({ isOpen, onClose }) => {
   const [turfs, setTurfs] = useState<TurfType[]>([]);
+  const { userId } = userExample;
 
   useEffect(() => {
     const { turfs } = userExample;
@@ -41,7 +42,7 @@ export const TurfModal: FC<TurfModalProps> = ({ isOpen, onClose }) => {
             {turf.name}
           </button>
         ))}
-        <Link to="/users/turfs">
+        <Link to={`/users/${userId}/turfs`}>
           <button className="w-full p-2 cursor-pointer">내 동네 설정</button>
         </Link>
       </div>

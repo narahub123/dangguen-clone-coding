@@ -38,7 +38,3 @@ export interface PostType {
   detail: string;
   meta: PostMetaType;
 }
-
-export interface UserType {
-  likes: string[];
-}

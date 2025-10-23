@@ -31,7 +31,7 @@ export const UserInfoSection: FC<UserInfoSectionProps> = ({
       <div className="w-full flex justify-between items-center">
         <div className="flex items-center gap-2">
           {/* 사용자 사진 */}
-          <Link to={`/users/${userId}`}>
+          <Link to={`/users/${userId}/profile`}>
             <figure className="w-16 h-16 rounded-full border">
               <img
                 className="w-16 h-16 rounded-full "
@@ -40,7 +40,7 @@ export const UserInfoSection: FC<UserInfoSectionProps> = ({
             </figure>
           </Link>
           <div>
-            <Link to={`/users/${userId}`}>
+            <Link to={`/users/${userId}/profile`}>
               <p>{username}</p>
             </Link>
             <Link to={`/search/${location}`}>

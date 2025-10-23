@@ -17,7 +17,7 @@ export const ProductDetailSection: FC<ProductDetailSectionProps> = ({
       {/* TODO: \n를 적용하는 방법 */}
       <div>{detail}</div>
       <div className="text-sm text-gray-400">{`채팅 ${chats} 관심 ${likes} 조회 ${views}`}</div>
-      <Link to="/report" className="text-sm underline text-gray-400">
+      <Link to="/reports" className="text-sm underline text-gray-400">
         이 게시글 신고하기
       </Link>
     </section>

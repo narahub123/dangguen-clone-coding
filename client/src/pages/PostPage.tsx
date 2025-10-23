@@ -15,6 +15,7 @@ import {
   UserInfoSection,
   UserProductsSection,
 } from "../ui";
+import { userExample } from "../data";
 
 export const PostPage = () => {
   const [post, setPost] = useState<PostType>();
@@ -55,11 +56,7 @@ export const PostPage = () => {
 
   // user 초기화
   useEffect(() => {
-    const user: UserType = {
-      likes: [],
-    };
-
-    setUser(user);
+    setUser(userExample);
   }, []);
 
   //
@@ -89,12 +86,12 @@ export const PostPage = () => {
     if (!user || !post) return;
     if (!user.likes.includes(post.postId)) {
       setUser((prev) => ({
-        ...prev,
+        ...prev!,
         likes: [...(prev?.likes ?? []), post.postId],
       }));
     } else {
       setUser((prev) => ({
-        ...prev,
+        ...prev!,
         likes: prev?.likes.filter((l) => l !== post.postId) ?? [],
       }));
     }

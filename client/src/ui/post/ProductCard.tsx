@@ -9,7 +9,7 @@ interface ProductCardProps {
 export const ProductCard: FC<ProductCardProps> = ({ product }) => {
   const { postId, image, title, price } = product;
   return (
-    <Link to={`/post/${postId}`}>
+    <Link to={`/posts/${postId}`}>
       <div className="w-full">
         <figure>
           <img

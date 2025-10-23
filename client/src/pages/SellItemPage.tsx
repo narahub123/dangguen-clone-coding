@@ -14,6 +14,7 @@ import {
 import { useState } from "react";
 import type { ItemTagType, SellingType } from "../types";
 import { itemTags, SELLING_TAGS } from "../data";
+import { Link } from "react-router-dom";
 
 export const SellItemPage = () => {
   const [locations, setLocations] = useState([
@@ -149,6 +150,7 @@ export const SellItemPage = () => {
             {SELLING_TAGS.map((tag) => (
               <SellingTag
                 tag={tag}
+                key={tag.type}
                 isChecked={tag.type === sellingTag}
                 onClick={handleSellingTag}
               />
@@ -156,9 +158,9 @@ export const SellItemPage = () => {
           </div>
           {sellingTag === "sell" ? (
             <div className="space-y-2">
-              <LinkButton text="W 가격을 입력해주세요" to="/price" />
+              <LinkButton text="W 가격을 입력해주세요" to={`/write/price`} />
               <div className="flex gap-2 items-center">
-                <input type="RadioBox" name="suggest" id="suggest" />
+                <input type="checkbox" name="suggest" id="suggest" />
                 <label htmlFor="suggest">가격 제안 받기</label>
               </div>
             </div>
@@ -168,7 +170,7 @@ export const SellItemPage = () => {
                 <p className="text-gray-300">W 0</p>
               </div>
               <div className="flex gap-2 items-center">
-                <input type="RadioBox" name="share" id="share" />
+                <input type="checkbox" name="share" id="share" />
                 <label htmlFor="share">나눔 신청 받기</label>
               </div>
             </div>
@@ -179,16 +181,19 @@ export const SellItemPage = () => {
           <div>
             <p className="font-bold">거래 희망 장소</p>
           </div>
-          <LinkButton text="장소 선택" to="/location" />
+          <LinkButton text="장소 선택" to="/write/location" />
           <div className="py-4">
-            <button className="flex gap-1 items-center cursor-pointer text-gray-400">
+            <Link
+              to={"expose"}
+              className="flex gap-1 items-center cursor-pointer text-gray-400"
+            >
               <span>
-                <p>보여준 동네 설정 </p>
+                <p>보여줄 동네 설정 </p>
               </span>
               <span>
                 <LuChevronRight />
               </span>
-            </button>
+            </Link>
           </div>
         </section>
         {/* 같은 글 올리기 */}
