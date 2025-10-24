@@ -11,3 +11,5 @@ export * from "./Calendar";
 export * from "./YearList";
 export * from "./ModalTriggerButton";
 export * from "./LinkButton";
+export * from "./UploadImages";
+export * from "./Textarea";

@@ -24,6 +24,10 @@ export const review: Record<string | ReviewType, any> = {
         rude_manner: "불친절해요",
       },
     },
+    write: {
+      title: "",
+      desc: "",
+    },
   },
   good: {
     checklist: {
@@ -38,6 +42,10 @@ export const review: Record<string | ReviewType, any> = {
         friendly_manner: "친절하고 매너가 좋아요.",
       },
     },
+    write: {
+      title: "따듯한 거래 경험을 알려주세요!",
+      desc: "남겨주신 거래 후기는 상대방의 프로필에 공개돼요.",
+    },
   },
   great: {
     checklist: {
@@ -51,6 +59,10 @@ export const review: Record<string | ReviewType, any> = {
         quick_response: "응답이 빨라요.",
         friendly_manner: "친절하고 매너가 좋아요.",
       },
+    },
+    write: {
+      title: "따듯한 거래 경험을 알려주세요!",
+      desc: "남겨주신 거래 후기는 상대방의 프로필에 공개돼요.",
     },
   },
 };

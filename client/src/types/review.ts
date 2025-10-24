@@ -7,6 +7,11 @@ export interface ReviewItemType {
   type: ReviewType;
 }
 
+export interface ImagePreviewType {
+  preview: string;
+  file: File;
+}
+
 export type BadReviewReasonCode =
   | "car_window_trade_attempt"
   | "excessive_haggling"
