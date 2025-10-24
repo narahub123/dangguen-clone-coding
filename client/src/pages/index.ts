@@ -5,3 +5,4 @@ export * from "./CommonPhrasePage";
 export * from "./PostPage";
 export * from "./HomePage";
 export * from "./ReportPage";
+export * from "./DealReviewPage";

@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import {
   CommonPhrasePage,
+  DealReviewPage,
   HomePage,
   PostPage,
   ReportPage,
@@ -184,6 +185,17 @@ export const router = createBrowserRouter([
       {
         path: "proxy",
         element: <ReportProxy />,
+      },
+    ],
+  },
+
+  // 거래 후기 평가 페이지
+  {
+    path: "/review",
+    children: [
+      {
+        path: "buyer",
+        element: <DealReviewPage />,
       },
     ],
   },
