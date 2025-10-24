@@ -1,5 +1,6 @@
 import { useState, type ChangeEvent } from "react";
 import {
+  Button,
   ChecklistContainer,
   PageHeader,
   PreviewImageContainer,
@@ -27,6 +28,8 @@ export const DealReviewPage = () => {
     if (nextType === reviewType) return;
     setReviewType(nextType);
     setReviewChecklist([]);
+    setText("");
+    setImages([]);
     if (nextType !== "bad") {
       setIsBlocked((prev) => (prev === false ? prev : false));
     }
@@ -132,6 +135,9 @@ export const DealReviewPage = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="p-4">
+        <Button className="w-full">후기 보내기</Button>
       </div>
     </div>
   );
