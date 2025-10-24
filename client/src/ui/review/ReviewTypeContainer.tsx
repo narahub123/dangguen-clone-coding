@@ -20,6 +20,7 @@ export const ReviewTypeContainer: FC<ReviewTypeContainerProps> = ({
             isOn={reviewType === item.type}
             item={item}
             onClick={onClick}
+            key={item.type}
           />
         );
       })}
