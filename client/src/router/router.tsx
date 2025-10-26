@@ -3,6 +3,7 @@ import {
   CommonPhrasePage,
   DealReviewPage,
   HomePage,
+  PlacePage,
   PostPage,
   ReportPage,
   SellItemLocationPage,
@@ -198,5 +199,10 @@ export const router = createBrowserRouter([
         element: <DealReviewPage />,
       },
     ],
+  },
+  // 장소
+  {
+    path: "/place",
+    element: <PlacePage />,
   },
 ]);

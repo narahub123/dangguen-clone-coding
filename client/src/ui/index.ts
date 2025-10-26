@@ -5,3 +5,4 @@ export * from "./post";
 export * from "./home";
 export * from "./report";
 export * from "./review";
+export * from "./place";

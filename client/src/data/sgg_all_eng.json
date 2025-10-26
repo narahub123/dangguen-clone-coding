@@ -1,0 +1,2031 @@
+[
+  {
+    "code": "11110",
+    "parentCode": "11",
+    "nameKor": "종로구",
+    "nameEng": "Jotro-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11140",
+    "parentCode": "11",
+    "nameKor": "중구",
+    "nameEng": "Jut-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11170",
+    "parentCode": "11",
+    "nameKor": "용산구",
+    "nameEng": "Yotsan-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11200",
+    "parentCode": "11",
+    "nameKor": "성동구",
+    "nameEng": "Seotdot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11215",
+    "parentCode": "11",
+    "nameKor": "광진구",
+    "nameEng": "Gwatjin-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11230",
+    "parentCode": "11",
+    "nameKor": "동대문구",
+    "nameEng": "Dotdaemun-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11260",
+    "parentCode": "11",
+    "nameKor": "중랑구",
+    "nameEng": "Jutrat-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11290",
+    "parentCode": "11",
+    "nameKor": "성북구",
+    "nameEng": "Seotbuk-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11305",
+    "parentCode": "11",
+    "nameKor": "강북구",
+    "nameEng": "Gatbuk-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11320",
+    "parentCode": "11",
+    "nameKor": "도봉구",
+    "nameEng": "Dobot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11350",
+    "parentCode": "11",
+    "nameKor": "노원구",
+    "nameEng": "Nowon-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11380",
+    "parentCode": "11",
+    "nameKor": "은평구",
+    "nameEng": "Eunpyeot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11410",
+    "parentCode": "11",
+    "nameKor": "서대문구",
+    "nameEng": "Seodaemun-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11440",
+    "parentCode": "11",
+    "nameKor": "마포구",
+    "nameEng": "Mapo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11470",
+    "parentCode": "11",
+    "nameKor": "양천구",
+    "nameEng": "Yatcheon-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11500",
+    "parentCode": "11",
+    "nameKor": "강서구",
+    "nameEng": "Gatseo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11530",
+    "parentCode": "11",
+    "nameKor": "구로구",
+    "nameEng": "Guro-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11545",
+    "parentCode": "11",
+    "nameKor": "금천구",
+    "nameEng": "Geupcheon-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11560",
+    "parentCode": "11",
+    "nameKor": "영등포구",
+    "nameEng": "Yeotdeutpo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11590",
+    "parentCode": "11",
+    "nameKor": "동작구",
+    "nameEng": "Dotjak-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11620",
+    "parentCode": "11",
+    "nameKor": "관악구",
+    "nameEng": "Gwanak-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11650",
+    "parentCode": "11",
+    "nameKor": "서초구",
+    "nameEng": "Seocho-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11680",
+    "parentCode": "11",
+    "nameKor": "강남구",
+    "nameEng": "Gatnap-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11710",
+    "parentCode": "11",
+    "nameKor": "송파구",
+    "nameEng": "Sotpa-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "11740",
+    "parentCode": "11",
+    "nameKor": "강동구",
+    "nameEng": "Gatdot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26110",
+    "parentCode": "26",
+    "nameKor": "중구",
+    "nameEng": "Jut-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26140",
+    "parentCode": "26",
+    "nameKor": "서구",
+    "nameEng": "Seo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26170",
+    "parentCode": "26",
+    "nameKor": "동구",
+    "nameEng": "Dot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26200",
+    "parentCode": "26",
+    "nameKor": "영도구",
+    "nameEng": "Yeotdo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26230",
+    "parentCode": "26",
+    "nameKor": "부산진구",
+    "nameEng": "Busanjin-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26260",
+    "parentCode": "26",
+    "nameKor": "동래구",
+    "nameEng": "Dotrae-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26290",
+    "parentCode": "26",
+    "nameKor": "남구",
+    "nameEng": "Nap-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26320",
+    "parentCode": "26",
+    "nameKor": "북구",
+    "nameEng": "Buk-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26350",
+    "parentCode": "26",
+    "nameKor": "해운대구",
+    "nameEng": "Haeundae-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26380",
+    "parentCode": "26",
+    "nameKor": "사하구",
+    "nameEng": "Saha-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26410",
+    "parentCode": "26",
+    "nameKor": "금정구",
+    "nameEng": "Geupjeot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26440",
+    "parentCode": "26",
+    "nameKor": "강서구",
+    "nameEng": "Gatseo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26470",
+    "parentCode": "26",
+    "nameKor": "연제구",
+    "nameEng": "Yeonje-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26500",
+    "parentCode": "26",
+    "nameKor": "수영구",
+    "nameEng": "Suyeot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26530",
+    "parentCode": "26",
+    "nameKor": "사상구",
+    "nameEng": "Sasat-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "26710",
+    "parentCode": "26",
+    "nameKor": "기장군",
+    "nameEng": "Gijat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "27110",
+    "parentCode": "27",
+    "nameKor": "중구",
+    "nameEng": "Jut-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27140",
+    "parentCode": "27",
+    "nameKor": "동구",
+    "nameEng": "Dot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27170",
+    "parentCode": "27",
+    "nameKor": "서구",
+    "nameEng": "Seo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27200",
+    "parentCode": "27",
+    "nameKor": "남구",
+    "nameEng": "Nap-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27230",
+    "parentCode": "27",
+    "nameKor": "북구",
+    "nameEng": "Buk-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27260",
+    "parentCode": "27",
+    "nameKor": "수성구",
+    "nameEng": "Suseot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27290",
+    "parentCode": "27",
+    "nameKor": "달서구",
+    "nameEng": "Dalseo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "27710",
+    "parentCode": "27",
+    "nameKor": "달성군",
+    "nameEng": "Dalseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "27720",
+    "parentCode": "27",
+    "nameKor": "군위군",
+    "nameEng": "Gunwi-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "28110",
+    "parentCode": "28",
+    "nameKor": "중구",
+    "nameEng": "Jut-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28114",
+    "parentCode": "28",
+    "nameKor": "중구영종출장소",
+    "nameEng": "Jutguyeotjotchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "28118",
+    "parentCode": "28",
+    "nameKor": "중구용유출장소",
+    "nameEng": "Jutguyotyuchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "28140",
+    "parentCode": "28",
+    "nameKor": "동구",
+    "nameEng": "Dot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28177",
+    "parentCode": "28",
+    "nameKor": "미추홀구",
+    "nameEng": "Michuhol-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28185",
+    "parentCode": "28",
+    "nameKor": "연수구",
+    "nameEng": "Yeonsu-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28200",
+    "parentCode": "28",
+    "nameKor": "남동구",
+    "nameEng": "Napdot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28237",
+    "parentCode": "28",
+    "nameKor": "부평구",
+    "nameEng": "Bupyeot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28245",
+    "parentCode": "28",
+    "nameKor": "계양구",
+    "nameEng": "Gyeyat-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28260",
+    "parentCode": "28",
+    "nameKor": "서구",
+    "nameEng": "Seo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "28265",
+    "parentCode": "28",
+    "nameKor": "서구검단출장소",
+    "nameEng": "Seogugeopdanchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "28710",
+    "parentCode": "28",
+    "nameKor": "강화군",
+    "nameEng": "Gathwa-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "28720",
+    "parentCode": "28",
+    "nameKor": "옹진군",
+    "nameEng": "Otjin-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "29110",
+    "parentCode": "29",
+    "nameKor": "동구",
+    "nameEng": "Dot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "29140",
+    "parentCode": "29",
+    "nameKor": "서구",
+    "nameEng": "Seo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "29155",
+    "parentCode": "29",
+    "nameKor": "남구",
+    "nameEng": "Nap-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "29170",
+    "parentCode": "29",
+    "nameKor": "북구",
+    "nameEng": "Buk-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "29200",
+    "parentCode": "29",
+    "nameKor": "광산구",
+    "nameEng": "Gwatsan-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "30110",
+    "parentCode": "30",
+    "nameKor": "동구",
+    "nameEng": "Dot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "30140",
+    "parentCode": "30",
+    "nameKor": "중구",
+    "nameEng": "Jut-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "30170",
+    "parentCode": "30",
+    "nameKor": "서구",
+    "nameEng": "Seo-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "30200",
+    "parentCode": "30",
+    "nameKor": "유성구",
+    "nameEng": "Yuseot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "30230",
+    "parentCode": "30",
+    "nameKor": "대덕구",
+    "nameEng": "Daedeok-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "31110",
+    "parentCode": "31",
+    "nameKor": "중구",
+    "nameEng": "Jut-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "31140",
+    "parentCode": "31",
+    "nameKor": "남구",
+    "nameEng": "Nap-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "31170",
+    "parentCode": "31",
+    "nameKor": "동구",
+    "nameEng": "Dot-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "31200",
+    "parentCode": "31",
+    "nameKor": "북구",
+    "nameEng": "Buk-gu",
+    "kind": "gu",
+    "isAutonomous": true
+  },
+  {
+    "code": "31710",
+    "parentCode": "31",
+    "nameKor": "울주군",
+    "nameEng": "Ulju-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "36110",
+    "parentCode": "36",
+    "nameKor": "세종특별자치시",
+    "nameEng": "Sejong",
+    "kind": "si"
+  },
+  {
+    "code": "41110",
+    "parentCode": "41",
+    "nameKor": "수원시",
+    "nameEng": "Suwon-si",
+    "kind": "si"
+  },
+  {
+    "code": "41111",
+    "parentCode": "41",
+    "nameKor": "수원시 장안구",
+    "nameEng": "Suwon-si Jatan-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41113",
+    "parentCode": "41",
+    "nameKor": "수원시 권선구",
+    "nameEng": "Suwon-si Gwonseon-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41115",
+    "parentCode": "41",
+    "nameKor": "수원시 팔달구",
+    "nameEng": "Suwon-si Paldal-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41117",
+    "parentCode": "41",
+    "nameKor": "수원시 영통구",
+    "nameEng": "Suwon-si Yeottot-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41130",
+    "parentCode": "41",
+    "nameKor": "성남시",
+    "nameEng": "Seotnap-si",
+    "kind": "si"
+  },
+  {
+    "code": "41131",
+    "parentCode": "41",
+    "nameKor": "성남시 수정구",
+    "nameEng": "Seotnap-si Sujeot-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41133",
+    "parentCode": "41",
+    "nameKor": "성남시 중원구",
+    "nameEng": "Seotnap-si Jutwon-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41135",
+    "parentCode": "41",
+    "nameKor": "성남시 분당구",
+    "nameEng": "Seotnap-si Bundat-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41150",
+    "parentCode": "41",
+    "nameKor": "의정부시",
+    "nameEng": "Uijeotbu-si",
+    "kind": "si"
+  },
+  {
+    "code": "41170",
+    "parentCode": "41",
+    "nameKor": "안양시",
+    "nameEng": "Anyat-si",
+    "kind": "si"
+  },
+  {
+    "code": "41171",
+    "parentCode": "41",
+    "nameKor": "안양시 만안구",
+    "nameEng": "Anyat-si Manan-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41173",
+    "parentCode": "41",
+    "nameKor": "안양시 동안구",
+    "nameEng": "Anyat-si Dotan-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41190",
+    "parentCode": "41",
+    "nameKor": "부천시",
+    "nameEng": "Bucheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "41192",
+    "parentCode": "41",
+    "nameKor": "부천시 원미구",
+    "nameEng": "Bucheon-si Wonmi-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41194",
+    "parentCode": "41",
+    "nameKor": "부천시 소사구",
+    "nameEng": "Bucheon-si Sosa-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41196",
+    "parentCode": "41",
+    "nameKor": "부천시 오정구",
+    "nameEng": "Bucheon-si Ojeot-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41210",
+    "parentCode": "41",
+    "nameKor": "광명시",
+    "nameEng": "Gwatmyeot-si",
+    "kind": "si"
+  },
+  {
+    "code": "41220",
+    "parentCode": "41",
+    "nameKor": "평택시",
+    "nameEng": "Pyeottaek-si",
+    "kind": "si"
+  },
+  {
+    "code": "41222",
+    "parentCode": "41",
+    "nameKor": "송탄출장소",
+    "nameEng": "Sottanchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "41224",
+    "parentCode": "41",
+    "nameKor": "안중출장소",
+    "nameEng": "Anjutchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "41250",
+    "parentCode": "41",
+    "nameKor": "동두천시",
+    "nameEng": "Dotducheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "41270",
+    "parentCode": "41",
+    "nameKor": "안산시",
+    "nameEng": "Ansan-si",
+    "kind": "si"
+  },
+  {
+    "code": "41271",
+    "parentCode": "41",
+    "nameKor": "안산시 상록구",
+    "nameEng": "Ansan-si Satrok-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41273",
+    "parentCode": "41",
+    "nameKor": "안산시 단원구",
+    "nameEng": "Ansan-si Danwon-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41280",
+    "parentCode": "41",
+    "nameKor": "고양시",
+    "nameEng": "Goyat-si",
+    "kind": "si"
+  },
+  {
+    "code": "41281",
+    "parentCode": "41",
+    "nameKor": "고양시 덕양구",
+    "nameEng": "Goyat-si Deokyat-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41285",
+    "parentCode": "41",
+    "nameKor": "고양시 일산동구",
+    "nameEng": "Goyat-si Ilsandot-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41287",
+    "parentCode": "41",
+    "nameKor": "고양시 일산서구",
+    "nameEng": "Goyat-si Ilsanseo-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41290",
+    "parentCode": "41",
+    "nameKor": "과천시",
+    "nameEng": "Gwacheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "41310",
+    "parentCode": "41",
+    "nameKor": "구리시",
+    "nameEng": "Guri-si",
+    "kind": "si"
+  },
+  {
+    "code": "41360",
+    "parentCode": "41",
+    "nameKor": "남양주시",
+    "nameEng": "Napyatju-si",
+    "kind": "si"
+  },
+  {
+    "code": "41362",
+    "parentCode": "41",
+    "nameKor": "풍양출장소",
+    "nameEng": "Putyatchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "41370",
+    "parentCode": "41",
+    "nameKor": "오산시",
+    "nameEng": "Osan-si",
+    "kind": "si"
+  },
+  {
+    "code": "41390",
+    "parentCode": "41",
+    "nameKor": "시흥시",
+    "nameEng": "Siheut-si",
+    "kind": "si"
+  },
+  {
+    "code": "41410",
+    "parentCode": "41",
+    "nameKor": "군포시",
+    "nameEng": "Gunpo-si",
+    "kind": "si"
+  },
+  {
+    "code": "41430",
+    "parentCode": "41",
+    "nameKor": "의왕시",
+    "nameEng": "Uiwat-si",
+    "kind": "si"
+  },
+  {
+    "code": "41450",
+    "parentCode": "41",
+    "nameKor": "하남시",
+    "nameEng": "Hanap-si",
+    "kind": "si"
+  },
+  {
+    "code": "41460",
+    "parentCode": "41",
+    "nameKor": "용인시",
+    "nameEng": "Yotin-si",
+    "kind": "si"
+  },
+  {
+    "code": "41461",
+    "parentCode": "41",
+    "nameKor": "용인시 처인구",
+    "nameEng": "Yotin-si Cheoin-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41463",
+    "parentCode": "41",
+    "nameKor": "용인시 기흥구",
+    "nameEng": "Yotin-si Giheut-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41465",
+    "parentCode": "41",
+    "nameKor": "용인시 수지구",
+    "nameEng": "Yotin-si Suji-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "41480",
+    "parentCode": "41",
+    "nameKor": "파주시",
+    "nameEng": "Paju-si",
+    "kind": "si"
+  },
+  {
+    "code": "41500",
+    "parentCode": "41",
+    "nameKor": "이천시",
+    "nameEng": "Icheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "41550",
+    "parentCode": "41",
+    "nameKor": "안성시",
+    "nameEng": "Anseot-si",
+    "kind": "si"
+  },
+  {
+    "code": "41570",
+    "parentCode": "41",
+    "nameKor": "김포시",
+    "nameEng": "Gippo-si",
+    "kind": "si"
+  },
+  {
+    "code": "41590",
+    "parentCode": "41",
+    "nameKor": "화성시",
+    "nameEng": "Hwaseot-si",
+    "kind": "si"
+  },
+  {
+    "code": "41592",
+    "parentCode": "41",
+    "nameKor": "화성시동부출장소",
+    "nameEng": "Hwaseotsidotbuchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "41594",
+    "parentCode": "41",
+    "nameKor": "화성시동탄출장소",
+    "nameEng": "Hwaseotsidottanchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "41610",
+    "parentCode": "41",
+    "nameKor": "광주시",
+    "nameEng": "Gwatju-si",
+    "kind": "si"
+  },
+  {
+    "code": "41630",
+    "parentCode": "41",
+    "nameKor": "양주시",
+    "nameEng": "Yatju-si",
+    "kind": "si"
+  },
+  {
+    "code": "41650",
+    "parentCode": "41",
+    "nameKor": "포천시",
+    "nameEng": "Pocheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "41670",
+    "parentCode": "41",
+    "nameKor": "여주시",
+    "nameEng": "Yeoju-si",
+    "kind": "si"
+  },
+  {
+    "code": "41800",
+    "parentCode": "41",
+    "nameKor": "연천군",
+    "nameEng": "Yeoncheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "41820",
+    "parentCode": "41",
+    "nameKor": "가평군",
+    "nameEng": "Gapyeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "41830",
+    "parentCode": "41",
+    "nameKor": "양평군",
+    "nameEng": "Yatpyeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43110",
+    "parentCode": "43",
+    "nameKor": "청주시",
+    "nameEng": "Cheotju-si",
+    "kind": "si"
+  },
+  {
+    "code": "43111",
+    "parentCode": "43",
+    "nameKor": "청주시 상당구",
+    "nameEng": "Cheotju-si Satdat-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "43112",
+    "parentCode": "43",
+    "nameKor": "청주시 서원구",
+    "nameEng": "Cheotju-si Seowon-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "43113",
+    "parentCode": "43",
+    "nameKor": "청주시 흥덕구",
+    "nameEng": "Cheotju-si Heutdeok-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "43114",
+    "parentCode": "43",
+    "nameKor": "청주시 청원구",
+    "nameEng": "Cheotju-si Cheotwon-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "43130",
+    "parentCode": "43",
+    "nameKor": "충주시",
+    "nameEng": "Chutju-si",
+    "kind": "si"
+  },
+  {
+    "code": "43150",
+    "parentCode": "43",
+    "nameKor": "제천시",
+    "nameEng": "Jecheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "43720",
+    "parentCode": "43",
+    "nameKor": "보은군",
+    "nameEng": "Boeun-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43730",
+    "parentCode": "43",
+    "nameKor": "옥천군",
+    "nameEng": "Okcheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43740",
+    "parentCode": "43",
+    "nameKor": "영동군",
+    "nameEng": "Yeotdot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43745",
+    "parentCode": "43",
+    "nameKor": "증평군",
+    "nameEng": "Jeutpyeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43750",
+    "parentCode": "43",
+    "nameKor": "진천군",
+    "nameEng": "Jincheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43760",
+    "parentCode": "43",
+    "nameKor": "괴산군",
+    "nameEng": "Goesan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43770",
+    "parentCode": "43",
+    "nameKor": "음성군",
+    "nameEng": "Eupseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "43800",
+    "parentCode": "43",
+    "nameKor": "단양군",
+    "nameEng": "Danyat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44130",
+    "parentCode": "44",
+    "nameKor": "천안시",
+    "nameEng": "Cheonan-si",
+    "kind": "si"
+  },
+  {
+    "code": "44131",
+    "parentCode": "44",
+    "nameKor": "천안시 동남구",
+    "nameEng": "Cheonan-si Dotnap-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "44133",
+    "parentCode": "44",
+    "nameKor": "천안시 서북구",
+    "nameEng": "Cheonan-si Seobuk-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "44150",
+    "parentCode": "44",
+    "nameKor": "공주시",
+    "nameEng": "Gotju-si",
+    "kind": "si"
+  },
+  {
+    "code": "44180",
+    "parentCode": "44",
+    "nameKor": "보령시",
+    "nameEng": "Boryeot-si",
+    "kind": "si"
+  },
+  {
+    "code": "44200",
+    "parentCode": "44",
+    "nameKor": "아산시",
+    "nameEng": "Asan-si",
+    "kind": "si"
+  },
+  {
+    "code": "44210",
+    "parentCode": "44",
+    "nameKor": "서산시",
+    "nameEng": "Seosan-si",
+    "kind": "si"
+  },
+  {
+    "code": "44230",
+    "parentCode": "44",
+    "nameKor": "논산시",
+    "nameEng": "Nonsan-si",
+    "kind": "si"
+  },
+  {
+    "code": "44250",
+    "parentCode": "44",
+    "nameKor": "계룡시",
+    "nameEng": "Gyeryot-si",
+    "kind": "si"
+  },
+  {
+    "code": "44270",
+    "parentCode": "44",
+    "nameKor": "당진시",
+    "nameEng": "Datjin-si",
+    "kind": "si"
+  },
+  {
+    "code": "44710",
+    "parentCode": "44",
+    "nameKor": "금산군",
+    "nameEng": "Geupsan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44760",
+    "parentCode": "44",
+    "nameKor": "부여군",
+    "nameEng": "Buyeo-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44770",
+    "parentCode": "44",
+    "nameKor": "서천군",
+    "nameEng": "Seocheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44790",
+    "parentCode": "44",
+    "nameKor": "청양군",
+    "nameEng": "Cheotyat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44800",
+    "parentCode": "44",
+    "nameKor": "홍성군",
+    "nameEng": "Hotseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44810",
+    "parentCode": "44",
+    "nameKor": "예산군",
+    "nameEng": "Yesan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "44825",
+    "parentCode": "44",
+    "nameKor": "태안군",
+    "nameEng": "Taean-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46110",
+    "parentCode": "46",
+    "nameKor": "목포시",
+    "nameEng": "Mokpo-si",
+    "kind": "si"
+  },
+  {
+    "code": "46130",
+    "parentCode": "46",
+    "nameKor": "여수시",
+    "nameEng": "Yeosu-si",
+    "kind": "si"
+  },
+  {
+    "code": "46150",
+    "parentCode": "46",
+    "nameKor": "순천시",
+    "nameEng": "Suncheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "46170",
+    "parentCode": "46",
+    "nameKor": "나주시",
+    "nameEng": "Naju-si",
+    "kind": "si"
+  },
+  {
+    "code": "46230",
+    "parentCode": "46",
+    "nameKor": "광양시",
+    "nameEng": "Gwatyat-si",
+    "kind": "si"
+  },
+  {
+    "code": "46710",
+    "parentCode": "46",
+    "nameKor": "담양군",
+    "nameEng": "Dapyat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46720",
+    "parentCode": "46",
+    "nameKor": "곡성군",
+    "nameEng": "Gokseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46730",
+    "parentCode": "46",
+    "nameKor": "구례군",
+    "nameEng": "Gurye-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46770",
+    "parentCode": "46",
+    "nameKor": "고흥군",
+    "nameEng": "Goheut-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46780",
+    "parentCode": "46",
+    "nameKor": "보성군",
+    "nameEng": "Boseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46790",
+    "parentCode": "46",
+    "nameKor": "화순군",
+    "nameEng": "Hwasun-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46800",
+    "parentCode": "46",
+    "nameKor": "장흥군",
+    "nameEng": "Jatheut-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46810",
+    "parentCode": "46",
+    "nameKor": "강진군",
+    "nameEng": "Gatjin-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46820",
+    "parentCode": "46",
+    "nameKor": "해남군",
+    "nameEng": "Haenap-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46830",
+    "parentCode": "46",
+    "nameKor": "영암군",
+    "nameEng": "Yeotap-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46840",
+    "parentCode": "46",
+    "nameKor": "무안군",
+    "nameEng": "Muan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46860",
+    "parentCode": "46",
+    "nameKor": "함평군",
+    "nameEng": "Happyeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46870",
+    "parentCode": "46",
+    "nameKor": "영광군",
+    "nameEng": "Yeotgwat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46880",
+    "parentCode": "46",
+    "nameKor": "장성군",
+    "nameEng": "Jatseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46890",
+    "parentCode": "46",
+    "nameKor": "완도군",
+    "nameEng": "Wando-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46900",
+    "parentCode": "46",
+    "nameKor": "진도군",
+    "nameEng": "Jindo-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "46910",
+    "parentCode": "46",
+    "nameKor": "신안군",
+    "nameEng": "Sinan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47110",
+    "parentCode": "47",
+    "nameKor": "포항시",
+    "nameEng": "Pohat-si",
+    "kind": "si"
+  },
+  {
+    "code": "47111",
+    "parentCode": "47",
+    "nameKor": "포항시 남구",
+    "nameEng": "Pohat-si Nap-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "47113",
+    "parentCode": "47",
+    "nameKor": "포항시 북구",
+    "nameEng": "Pohat-si Buk-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "47130",
+    "parentCode": "47",
+    "nameKor": "경주시",
+    "nameEng": "Gyeotju-si",
+    "kind": "si"
+  },
+  {
+    "code": "47150",
+    "parentCode": "47",
+    "nameKor": "김천시",
+    "nameEng": "Gipcheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "47170",
+    "parentCode": "47",
+    "nameKor": "안동시",
+    "nameEng": "Andot-si",
+    "kind": "si"
+  },
+  {
+    "code": "47190",
+    "parentCode": "47",
+    "nameKor": "구미시",
+    "nameEng": "Gumi-si",
+    "kind": "si"
+  },
+  {
+    "code": "47210",
+    "parentCode": "47",
+    "nameKor": "영주시",
+    "nameEng": "Yeotju-si",
+    "kind": "si"
+  },
+  {
+    "code": "47230",
+    "parentCode": "47",
+    "nameKor": "영천시",
+    "nameEng": "Yeotcheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "47250",
+    "parentCode": "47",
+    "nameKor": "상주시",
+    "nameEng": "Satju-si",
+    "kind": "si"
+  },
+  {
+    "code": "47280",
+    "parentCode": "47",
+    "nameKor": "문경시",
+    "nameEng": "Mungyeot-si",
+    "kind": "si"
+  },
+  {
+    "code": "47290",
+    "parentCode": "47",
+    "nameKor": "경산시",
+    "nameEng": "Gyeotsan-si",
+    "kind": "si"
+  },
+  {
+    "code": "47730",
+    "parentCode": "47",
+    "nameKor": "의성군",
+    "nameEng": "Uiseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47750",
+    "parentCode": "47",
+    "nameKor": "청송군",
+    "nameEng": "Cheotsot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47760",
+    "parentCode": "47",
+    "nameKor": "영양군",
+    "nameEng": "Yeotyat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47770",
+    "parentCode": "47",
+    "nameKor": "영덕군",
+    "nameEng": "Yeotdeok-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47820",
+    "parentCode": "47",
+    "nameKor": "청도군",
+    "nameEng": "Cheotdo-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47830",
+    "parentCode": "47",
+    "nameKor": "고령군",
+    "nameEng": "Goryeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47840",
+    "parentCode": "47",
+    "nameKor": "성주군",
+    "nameEng": "Seotju-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47850",
+    "parentCode": "47",
+    "nameKor": "칠곡군",
+    "nameEng": "Chilgok-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47900",
+    "parentCode": "47",
+    "nameKor": "예천군",
+    "nameEng": "Yecheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47920",
+    "parentCode": "47",
+    "nameKor": "봉화군",
+    "nameEng": "Bothwa-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47930",
+    "parentCode": "47",
+    "nameKor": "울진군",
+    "nameEng": "Uljin-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "47940",
+    "parentCode": "47",
+    "nameKor": "울릉군",
+    "nameEng": "Ulreut-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48120",
+    "parentCode": "48",
+    "nameKor": "창원시",
+    "nameEng": "Chatwon-si",
+    "kind": "si"
+  },
+  {
+    "code": "48121",
+    "parentCode": "48",
+    "nameKor": "창원시 의창구",
+    "nameEng": "Chatwon-si Uichat-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "48123",
+    "parentCode": "48",
+    "nameKor": "창원시 성산구",
+    "nameEng": "Chatwon-si Seotsan-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "48125",
+    "parentCode": "48",
+    "nameKor": "창원시 마산합포구",
+    "nameEng": "Chatwon-si Masanhatpo-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "48127",
+    "parentCode": "48",
+    "nameKor": "창원시 마산회원구",
+    "nameEng": "Chatwon-si Masanhoewon-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "48129",
+    "parentCode": "48",
+    "nameKor": "창원시 진해구",
+    "nameEng": "Chatwon-si Jinhae-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "48170",
+    "parentCode": "48",
+    "nameKor": "진주시",
+    "nameEng": "Jinju-si",
+    "kind": "si"
+  },
+  {
+    "code": "48220",
+    "parentCode": "48",
+    "nameKor": "통영시",
+    "nameEng": "Totyeot-si",
+    "kind": "si"
+  },
+  {
+    "code": "48240",
+    "parentCode": "48",
+    "nameKor": "사천시",
+    "nameEng": "Sacheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "48245",
+    "parentCode": "48",
+    "nameKor": "사천남양출장소",
+    "nameEng": "Sacheonnapyatchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "48250",
+    "parentCode": "48",
+    "nameKor": "김해시",
+    "nameEng": "Giphae-si",
+    "kind": "si"
+  },
+  {
+    "code": "48252",
+    "parentCode": "48",
+    "nameKor": "장유출장소",
+    "nameEng": "Jatyuchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "48270",
+    "parentCode": "48",
+    "nameKor": "밀양시",
+    "nameEng": "Milyat-si",
+    "kind": "si"
+  },
+  {
+    "code": "48310",
+    "parentCode": "48",
+    "nameKor": "거제시",
+    "nameEng": "Geoje-si",
+    "kind": "si"
+  },
+  {
+    "code": "48330",
+    "parentCode": "48",
+    "nameKor": "양산시",
+    "nameEng": "Yatsan-si",
+    "kind": "si"
+  },
+  {
+    "code": "48332",
+    "parentCode": "48",
+    "nameKor": "양산시웅상출장소",
+    "nameEng": "Yatsansiutsatchuljatso",
+    "kind": "si"
+  },
+  {
+    "code": "48720",
+    "parentCode": "48",
+    "nameKor": "의령군",
+    "nameEng": "Uiryeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48730",
+    "parentCode": "48",
+    "nameKor": "함안군",
+    "nameEng": "Hapan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48740",
+    "parentCode": "48",
+    "nameKor": "창녕군",
+    "nameEng": "Chatnyeot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48820",
+    "parentCode": "48",
+    "nameKor": "고성군",
+    "nameEng": "Goseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48840",
+    "parentCode": "48",
+    "nameKor": "남해군",
+    "nameEng": "Naphae-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48850",
+    "parentCode": "48",
+    "nameKor": "하동군",
+    "nameEng": "Hadot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48860",
+    "parentCode": "48",
+    "nameKor": "산청군",
+    "nameEng": "Sancheot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48870",
+    "parentCode": "48",
+    "nameKor": "함양군",
+    "nameEng": "Hapyat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48880",
+    "parentCode": "48",
+    "nameKor": "거창군",
+    "nameEng": "Geochat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "48890",
+    "parentCode": "48",
+    "nameKor": "합천군",
+    "nameEng": "Hatcheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "50110",
+    "parentCode": "50",
+    "nameKor": "제주시",
+    "nameEng": "Jeju-si",
+    "kind": "si"
+  },
+  {
+    "code": "50130",
+    "parentCode": "50",
+    "nameKor": "서귀포시",
+    "nameEng": "Seogwipo-si",
+    "kind": "si"
+  },
+  {
+    "code": "51110",
+    "parentCode": "51",
+    "nameKor": "춘천시",
+    "nameEng": "Chuncheon-si",
+    "kind": "si"
+  },
+  {
+    "code": "51130",
+    "parentCode": "51",
+    "nameKor": "원주시",
+    "nameEng": "Wonju-si",
+    "kind": "si"
+  },
+  {
+    "code": "51150",
+    "parentCode": "51",
+    "nameKor": "강릉시",
+    "nameEng": "Gatreut-si",
+    "kind": "si"
+  },
+  {
+    "code": "51170",
+    "parentCode": "51",
+    "nameKor": "동해시",
+    "nameEng": "Dothae-si",
+    "kind": "si"
+  },
+  {
+    "code": "51190",
+    "parentCode": "51",
+    "nameKor": "태백시",
+    "nameEng": "Taebaek-si",
+    "kind": "si"
+  },
+  {
+    "code": "51210",
+    "parentCode": "51",
+    "nameKor": "속초시",
+    "nameEng": "Sokcho-si",
+    "kind": "si"
+  },
+  {
+    "code": "51230",
+    "parentCode": "51",
+    "nameKor": "삼척시",
+    "nameEng": "Sapcheok-si",
+    "kind": "si"
+  },
+  {
+    "code": "51720",
+    "parentCode": "51",
+    "nameKor": "홍천군",
+    "nameEng": "Hotcheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51730",
+    "parentCode": "51",
+    "nameKor": "횡성군",
+    "nameEng": "Hoetseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51750",
+    "parentCode": "51",
+    "nameKor": "영월군",
+    "nameEng": "Yeotwol-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51760",
+    "parentCode": "51",
+    "nameKor": "평창군",
+    "nameEng": "Pyeotchat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51770",
+    "parentCode": "51",
+    "nameKor": "정선군",
+    "nameEng": "Jeotseon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51780",
+    "parentCode": "51",
+    "nameKor": "철원군",
+    "nameEng": "Cheolwon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51790",
+    "parentCode": "51",
+    "nameKor": "화천군",
+    "nameEng": "Hwacheon-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51800",
+    "parentCode": "51",
+    "nameKor": "양구군",
+    "nameEng": "Yatgu-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51810",
+    "parentCode": "51",
+    "nameKor": "인제군",
+    "nameEng": "Inje-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51820",
+    "parentCode": "51",
+    "nameKor": "고성군",
+    "nameEng": "Goseot-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "51830",
+    "parentCode": "51",
+    "nameKor": "양양군",
+    "nameEng": "Yatyat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52110",
+    "parentCode": "52",
+    "nameKor": "전주시",
+    "nameEng": "Jeonju-si",
+    "kind": "si"
+  },
+  {
+    "code": "52111",
+    "parentCode": "52",
+    "nameKor": "전주시 완산구",
+    "nameEng": "Jeonju-si Wansan-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "52113",
+    "parentCode": "52",
+    "nameKor": "전주시 덕진구",
+    "nameEng": "Jeonju-si Deokjin-gu",
+    "kind": "gu",
+    "isAutonomous": false
+  },
+  {
+    "code": "52130",
+    "parentCode": "52",
+    "nameKor": "군산시",
+    "nameEng": "Gunsan-si",
+    "kind": "si"
+  },
+  {
+    "code": "52140",
+    "parentCode": "52",
+    "nameKor": "익산시",
+    "nameEng": "Iksan-si",
+    "kind": "si"
+  },
+  {
+    "code": "52180",
+    "parentCode": "52",
+    "nameKor": "정읍시",
+    "nameEng": "Jeoteut-si",
+    "kind": "si"
+  },
+  {
+    "code": "52190",
+    "parentCode": "52",
+    "nameKor": "남원시",
+    "nameEng": "Napwon-si",
+    "kind": "si"
+  },
+  {
+    "code": "52210",
+    "parentCode": "52",
+    "nameKor": "김제시",
+    "nameEng": "Gipje-si",
+    "kind": "si"
+  },
+  {
+    "code": "52710",
+    "parentCode": "52",
+    "nameKor": "완주군",
+    "nameEng": "Wanju-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52720",
+    "parentCode": "52",
+    "nameKor": "진안군",
+    "nameEng": "Jinan-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52730",
+    "parentCode": "52",
+    "nameKor": "무주군",
+    "nameEng": "Muju-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52740",
+    "parentCode": "52",
+    "nameKor": "장수군",
+    "nameEng": "Jatsu-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52750",
+    "parentCode": "52",
+    "nameKor": "임실군",
+    "nameEng": "Ipsil-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52770",
+    "parentCode": "52",
+    "nameKor": "순창군",
+    "nameEng": "Sunchat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52790",
+    "parentCode": "52",
+    "nameKor": "고창군",
+    "nameEng": "Gochat-gun",
+    "kind": "gun"
+  },
+  {
+    "code": "52800",
+    "parentCode": "52",
+    "nameKor": "부안군",
+    "nameEng": "Buan-gun",
+    "kind": "gun"
+  }
+]

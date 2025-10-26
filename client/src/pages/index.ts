@@ -6,3 +6,4 @@ export * from "./PostPage";
 export * from "./HomePage";
 export * from "./ReportPage";
 export * from "./DealReviewPage";
+export * from "./PlacePage";
