@@ -1,6 +1,6 @@
 import type { FC } from "react";
-import { LuChevronRight } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import { Icon } from "./Icon";
 
 interface LinkButtonProps {
   text: string;
@@ -25,9 +25,7 @@ export const LinkButton: FC<LinkButtonProps> = ({
         <p>{text}</p>
         {desc && <p className="text-sm text-gray-500">{desc}</p>}
       </span>
-      <span className="text-2xl">
-        <LuChevronRight />
-      </span>
+      <Icon name="right" className="text-2xl" />
     </Link>
   );
 };

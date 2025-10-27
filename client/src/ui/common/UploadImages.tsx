@@ -1,5 +1,5 @@
 import { useRef, type ChangeEvent, type FC } from "react";
-import { FaCamera } from "react-icons/fa";
+import { Icon } from "./Icon";
 
 interface UploadImagesProps {
   className?: string;
@@ -24,9 +24,7 @@ export const UploadImages: FC<UploadImagesProps> = ({
   return (
     <button className={className} onClick={handleClick}>
       <input type="file" hidden ref={inputRef} onChange={onChange} multiple />
-      <span className="text-2xl text-gray-500" aria-hidden={true}>
-        <FaCamera />
-      </span>
+      <Icon name="camera" className="text-2xl text-gray-500" />
     </button>
   );
 };

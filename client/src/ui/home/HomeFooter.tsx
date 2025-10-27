@@ -1,9 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { PageFooter } from "../common";
-import { GoHomeFill } from "react-icons/go";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { AiFillMessage } from "react-icons/ai";
-import { IoPerson } from "react-icons/io5";
+import { Icon, PageFooter } from "../common";
 import { userExample } from "../../data";
 
 export const HomeFooter = () => {
@@ -19,9 +15,7 @@ export const HomeFooter = () => {
           }
           to="/"
         >
-          <div className="text-3xl">
-            <GoHomeFill />
-          </div>
+          <Icon name="homeFill" className="text-3xl" />
           <p className="text-sm">홈</p>
         </NavLink>
         <NavLink
@@ -32,9 +26,7 @@ export const HomeFooter = () => {
           }
           to="/map"
         >
-          <div className="text-3xl">
-            <FaMapMarkerAlt />
-          </div>
+          <Icon name="marker" className="text-3xl" />
           <p className="text-sm">동네지도</p>
         </NavLink>
         <NavLink
@@ -45,9 +37,7 @@ export const HomeFooter = () => {
           }
           to={`/chats`}
         >
-          <div className="text-3xl">
-            <AiFillMessage />
-          </div>
+          <Icon name="chat" className="text-3xl" />
           <p className="text-sm">채팅</p>
         </NavLink>
         <NavLink
@@ -58,9 +48,7 @@ export const HomeFooter = () => {
           }
           to={`/users/${userId}`}
         >
-          <div className="text-3xl">
-            <IoPerson />
-          </div>
+          <Icon name="user" className="text-3xl" />
           <p className="text-sm">내 오이</p>
         </NavLink>
       </div>

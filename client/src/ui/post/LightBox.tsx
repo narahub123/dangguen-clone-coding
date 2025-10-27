@@ -1,7 +1,6 @@
-import { LuX } from "react-icons/lu";
-import { Modal } from "../common";
+import { Icon, Modal } from "../common";
 import { useEffect, type FC } from "react";
-import { GoDotFill } from "react-icons/go";
+``;
 
 interface LightBoxProps {
   images: string[];
@@ -24,12 +23,12 @@ export const LightBox: FC<LightBoxProps> = ({ images, isOpen, onClose }) => {
       height={"full"}
       className="z-30"
     >
-      <span
+      <button
         className="absolute top-2 left-2 text-2xl text-white cursor-pointer"
         onClick={onClose}
       >
-        <LuX />
-      </span>
+        <Icon name="close" />
+      </button>
       <div className="w-full h-screen flex flex-col justify-center items-center bg-black">
         <div className="flex overflow-hidden">
           {images.map((image) => (
@@ -44,9 +43,7 @@ export const LightBox: FC<LightBoxProps> = ({ images, isOpen, onClose }) => {
         {/* 인디케이터 */}
         <div className="flex absolute bottom-4">
           {images.map((_, index) => (
-            <span className="text-white">
-              <GoDotFill />
-            </span>
+            <Icon name="dotFill" className="text-white" key={index} />
           ))}
         </div>
       </div>

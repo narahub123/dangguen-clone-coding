@@ -1,6 +1,5 @@
 import { useState, type FC } from "react";
-import { BottomSheet } from "../common";
-import { LuX } from "react-icons/lu";
+import { BottomSheet, Icon } from "../common";
 import { RadioBox } from "./RadioBox";
 
 interface MinPriceSheetProps {
@@ -35,9 +34,9 @@ export const MinPriceSheet: FC<MinPriceSheetProps> = ({ isOpen, onClose }) => {
               {/* TODO: 가격을 설정한 가격을 가지고 와야 함 */}
               <p className="text-sm">{`최소 가격: ${cost}원`}</p>
             </div>
-            <span className="text-2xl cursor-pointer" onClick={onClose}>
-              <LuX />
-            </span>
+            <button className="text-2xl cursor-pointer" onClick={onClose}>
+              <Icon name="close" />
+            </button>
           </div>
           <div className="space-y-2">
             {shareList.map((share, index) => (

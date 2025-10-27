@@ -13,3 +13,6 @@ export * from "./ModalTriggerButton";
 export * from "./LinkButton";
 export * from "./UploadImages";
 export * from "./Textarea";
+export * from "./Icon";
+export * from "./Checkbox";
+export * from "./InputRadio";

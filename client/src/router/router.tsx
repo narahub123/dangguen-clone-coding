@@ -21,6 +21,7 @@ import {
   ReportSeller,
   ReportUser,
 } from "../ui";
+import { IconPage } from "../pages/IconPage";
 
 export const router = createBrowserRouter([
   // 홈 페이지
@@ -204,5 +205,10 @@ export const router = createBrowserRouter([
   {
     path: "/place",
     element: <PlacePage />,
+  },
+  // 아이콘
+  {
+    path: "/icons",
+    element: <IconPage />,
   },
 ]);

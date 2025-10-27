@@ -1,7 +1,8 @@
-import { LuChevronRight } from "react-icons/lu";
 import {
   Button,
+  Checkbox,
   CommonPhraseSheet,
+  Icon,
   ItemListModal,
   ItemTag,
   LinkButton,
@@ -120,9 +121,12 @@ export const SellItemPage = () => {
                 />
               ))}
             </div>
-            <div className="text-2xl cursor-pointer" onClick={handleItemModal}>
-              <LuChevronRight />
-            </div>
+            <button
+              className="text-2xl cursor-pointer"
+              onClick={handleItemModal}
+            >
+              <Icon name="right" />
+            </button>
           </div>
         </section>
         {/* 자세한 설명 */}
@@ -170,7 +174,8 @@ export const SellItemPage = () => {
                 <p className="text-gray-300">W 0</p>
               </div>
               <div className="flex gap-2 items-center">
-                <input type="checkbox" name="share" id="share" />
+                {/* <input type="checkbox" name="share" id="share" /> */}
+                <Checkbox id="share" />
                 <label htmlFor="share">나눔 신청 받기</label>
               </div>
             </div>
@@ -190,9 +195,7 @@ export const SellItemPage = () => {
               <span>
                 <p>보여줄 동네 설정 </p>
               </span>
-              <span>
-                <LuChevronRight />
-              </span>
+              <Icon name="right" />
             </Link>
           </div>
         </section>

@@ -1,8 +1,7 @@
 import { type FC } from "react";
-import { Modal } from "../common";
+import { Icon, Modal } from "../common";
 import { ITEM_TAGS } from "../../data";
 import type { ItemTagType } from "../../types";
-import { LuCheck } from "react-icons/lu";
 
 interface ItemListModalProps {
   isOpen: boolean;
@@ -30,13 +29,7 @@ export const ItemListModal: FC<ItemListModalProps> = ({
                 key={tag.value}
               >
                 <p>{tag.name}</p>
-                {isCheck ? (
-                  <span className="text-orange-400">
-                    <LuCheck />
-                  </span>
-                ) : (
-                  <></>
-                )}
+                {isCheck && <Icon name="check" className="text-orange-400" />}
               </button>
             );
           })}

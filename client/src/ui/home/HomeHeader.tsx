@@ -1,13 +1,8 @@
-import {
-  LuAlignJustify,
-  LuBell,
-  LuChevronDown,
-  LuSearch,
-} from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { userExample } from "../../data";
 import { TurfModal } from "./TurfModal";
 import { useState } from "react";
+import { Icon } from "../common";
 
 export const HomeHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,25 +22,17 @@ export const HomeHeader = () => {
         onClick={handleOpen}
       >
         <p>{turfs[0].name}</p>
-        <span>
-          <LuChevronDown />
-        </span>
+        <Icon name="down" />
       </button>
       <nav className="flex items-center">
         <Link to="/services" className="p-2" title="전체 서비스">
-          <span className="text-xl">
-            <LuAlignJustify />
-          </span>
+          <Icon name="hamberger" className="text-xl" />
         </Link>
         <Link to="/search" className="p-2" title="검색">
-          <span className="text-xl">
-            <LuSearch />
-          </span>
+          <Icon name="search" className="text-xl" />
         </Link>
         <Link to="/notifications" className="p-2" title="알림">
-          <span className="text-xl">
-            <LuBell />
-          </span>
+          <Icon name="bellOutline" className="text-xl" />
         </Link>
       </nav>
     </header>

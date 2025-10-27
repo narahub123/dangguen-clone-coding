@@ -1,5 +1,4 @@
-import { LuSearch } from "react-icons/lu";
-import { PageHeader } from "../common";
+import { Icon, PageHeader } from "../common";
 import { Outlet } from "react-router-dom";
 
 export const ReportListLayout = () => {
@@ -7,9 +6,7 @@ export const ReportListLayout = () => {
     <div className="w-full">
       <PageHeader text="">
         {/* 검색 버튼 */}
-        <span className="text-2xl">
-          <LuSearch />
-        </span>
+        <Icon name="search" className="text-2xl" />
       </PageHeader>
       <main>
         <div className="px-4 py-8 border-b border-gray-200">

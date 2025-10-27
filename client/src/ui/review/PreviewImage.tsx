@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { LuX } from "react-icons/lu";
+import { Icon } from "../common";
 
 interface PreviewImageProps {
   url: string;
@@ -21,9 +21,7 @@ export const PreviewImage: FC<PreviewImageProps> = ({
         className="absolute w-5 h-5 z-10 -top-2.5 -right-2.5 bg-black rounded-full flex justify-center items-center cursor-pointer"
         onClick={() => onDelete(url)}
       >
-        <span className="text-md text-white">
-          <LuX />
-        </span>
+        <Icon name="close" className="text-md text-white" />
       </button>
       <button className={className} onClick={() => onClick(url)}>
         <img src={url} alt="" className={className} />

@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import { InputRadio } from "../common";
 
 interface RadioBoxProps {
   value: number;
@@ -26,7 +27,8 @@ export const RadioBox: FC<RadioBoxProps> = ({
           }% 할인`}</p>
         )}
       </label>
-      <input type="radio" name={"min"} id={"min"} checked={cost === value} />
+
+      <InputRadio name="min" checked={cost === value} />
     </button>
   );
 };

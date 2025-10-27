@@ -1,9 +1,6 @@
 import type { FC } from "react";
-import { GoHome } from "react-icons/go";
-import { IoMdMore } from "react-icons/io";
-import { LuChevronLeft } from "react-icons/lu";
-import { PiShareNetwork } from "react-icons/pi";
 import { Link, useNavigate } from "react-router-dom";
+import { Icon } from "../common";
 
 interface PostHeaderProps {
   isOver: boolean;
@@ -36,17 +33,17 @@ export const PostHeader: FC<PostHeaderProps> = ({
           title="뒤로가기"
           onClick={handleGoback}
         >
-          <LuChevronLeft />
+          <Icon name="left" />
         </button>
         {/* 홈 이동 */}
         <Link to="/" className="text-2xl p-2 cursor-pointer" title="홈으로">
-          <GoHome />
+          <Icon name="homeOutline" />
         </Link>
       </div>
       <div>
         {/* 공유 */}
         <button className="text-2xl p-2 cursor-pointer" title="공유하기">
-          <PiShareNetwork />
+          <Icon name="share" />
         </button>
         {/* 더보기 */}
         <button
@@ -54,7 +51,7 @@ export const PostHeader: FC<PostHeaderProps> = ({
           title="더보기"
           onClick={onPostReportOpen}
         >
-          <IoMdMore />
+          <Icon name="verticalDots" />
         </button>
       </div>
     </header>

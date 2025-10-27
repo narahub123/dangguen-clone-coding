@@ -1,5 +1,5 @@
-import { LuPlus } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import { Icon } from "../common";
 
 export const WriteButton = () => {
   return (
@@ -7,9 +7,7 @@ export const WriteButton = () => {
       to="/write"
       className="fixed bottom-22 left-112 z-30 bg-orange-400 text-white rounded-full p-2 shadow-lg"
     >
-      <span className="text-2xl">
-        <LuPlus />
-      </span>
+      <Icon name="plus" className="text-2xl" />
     </Link>
   );
 };

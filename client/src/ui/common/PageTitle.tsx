@@ -1,6 +1,6 @@
 import type { FC } from "react";
-import { LuChevronLeft } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
+import { Icon } from "./Icon";
 
 interface PageTitleProps {
   text: string;
@@ -14,7 +14,7 @@ export const PageTitle: FC<PageTitleProps> = ({ text }) => {
         className="text-2xl p-2 cursor-pointer"
         onClick={() => navigate(-1)}
       >
-        <LuChevronLeft />
+        <Icon name="left" />
       </button>
       <p className="py-2 font-bold">{text}</p>
     </div>

@@ -83,7 +83,8 @@ export const SellItemPricePage = () => {
           </div>
           <div>
             <SlideUpButton
-              text="종료일을 선택해주세요"
+              text=""
+              placeholder="종료일을 선택해주세요"
               onClick={() => {
                 setIsEndDateOpen(true);
               }}
@@ -99,7 +100,8 @@ export const SellItemPricePage = () => {
           </div>
           <div>
             <SlideUpButton
-              text="최저 가격을 선택해주세요"
+              text=""
+              placeholder="최저 가격을 선택해주세요"
               onClick={() => {
                 setIsMinPriceOpen(true);
               }}

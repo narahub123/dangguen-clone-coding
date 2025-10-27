@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { FaCamera } from "react-icons/fa";
+import { Icon } from "../common";
 
 export const UploadImage = () => {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -18,9 +18,7 @@ export const UploadImage = () => {
       onClick={handleClick}
     >
       <input type="file" name="" id="" ref={inputRef} hidden />
-      <span className="text-xl">
-        <FaCamera />
-      </span>
+      <Icon name="camera" className="text-xl" />
       <p>{`${photos.length}/10`}</p>
     </button>
   );

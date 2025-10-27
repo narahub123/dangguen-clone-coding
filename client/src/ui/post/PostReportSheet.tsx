@@ -1,6 +1,5 @@
 import type { FC } from "react";
-import { BottomSheet, Button } from "../common";
-import { LuEyeOff, LuFlag } from "react-icons/lu";
+import { BottomSheet, Button, Icon } from "../common";
 import { Link } from "react-router-dom";
 
 interface PostReportSheetProps {
@@ -17,14 +16,14 @@ export const PostReportSheet: FC<PostReportSheetProps> = ({
       <div className="p-4  space-y-2">
         <div className="bg-gray-100 rounded-lg">
           <button className="flex gap-2 items-center px-4 py-2 cursor-pointer">
-            <LuEyeOff />
+            <Icon name="eyeOff" />
             <p>이 사용자의 글 보지 않기</p>
           </button>
           <Link
             to="/reports"
             className="flex gap-2 items-center px-4 py-2 text-red-400 cursor-pointer"
           >
-            <LuFlag />
+            <Icon name="flagOutline" />
             <p>신고하기</p>
           </Link>
         </div>

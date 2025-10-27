@@ -1,9 +1,8 @@
 import { useState, type FC, type MouseEvent } from "react";
 import type { HomeProductType } from "../../types";
-import { LuEllipsisVertical } from "react-icons/lu";
-import { AiFillHeart, AiFillMessage } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { PostReportSheet } from "../post";
+import { Icon } from "../common";
 
 interface HomeProductCardProps {
   product: HomeProductType;
@@ -45,9 +44,7 @@ export const HomeProductCard: FC<HomeProductCardProps> = ({ product }) => {
                 className="cursor-pointer"
                 onClick={(e) => handleClick(e)}
               >
-                <span className="text-xl text-gray-400">
-                  <LuEllipsisVertical />
-                </span>
+                <Icon name="verticalDots" className="text-xl text-gray-400" />
               </button>
             </div>
             {/* 정보 */}
@@ -67,15 +64,11 @@ export const HomeProductCard: FC<HomeProductCardProps> = ({ product }) => {
           <div className="flex justify-end">
             <div className="flex items-center gap-2 text-gray-400">
               <span className="flex items-center gap-1">
-                <span>
-                  <AiFillMessage />
-                </span>
+                <Icon name="chat" />
                 <span>{meta.chats}</span>
               </span>
               <span className="flex items-center gap-1">
-                <span>
-                  <AiFillHeart />
-                </span>
+                <Icon name="likeFill" />
                 <span>{meta.likes}</span>
               </span>
             </div>
