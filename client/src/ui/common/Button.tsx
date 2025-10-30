@@ -28,5 +28,5 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   ]
     .filter(Boolean)
     .join(" ");
-  return <button {...props} className={className} />;
+  return <button {...props} className={className} title="버튼"/>;
 };

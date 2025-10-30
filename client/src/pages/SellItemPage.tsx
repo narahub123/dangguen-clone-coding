@@ -9,15 +9,18 @@ import {
   PageHeader,
   SectionTitle,
   SellingTag,
+  Textarea,
   ToggleButton,
   UploadImage,
 } from "../ui";
-import { useState } from "react";
+import { useState, type ChangeEvent } from "react";
 import type { ItemTagType, SellingType } from "../types";
 import { itemTags, SELLING_TAGS } from "../data";
 import { Link } from "react-router-dom";
+import { Write } from "../constants";
 
 export const SellItemPage = () => {
+  const [textarea, setTextarea] = useState("");
   const [locations, setLocations] = useState([
     {
       id: "1",
@@ -83,6 +86,14 @@ export const SellItemPage = () => {
     setIsCPOpen(false);
   };
 
+  const handleTextarea = (e: ChangeEvent<HTMLTextAreaElement>) => {
+    const text = e.target.value;
+
+    setTextarea(text);
+  };
+
+  console.log("텍스트에리아", textarea);
+
   return (
     <div className="w-[500px]">
       <ItemListModal
@@ -131,13 +142,14 @@ export const SellItemPage = () => {
         </section>
         {/* 자세한 설명 */}
         <section className="p-4 space-y-4">
-          <p className="font-bold">자세한 설명</p>
-          <textarea
-            name=""
-            id=""
-            rows={5}
-            className="w-full border border-gray-300 rounded-xl"
-          ></textarea>
+          <p className="font-bold">{Write.detail.title}</p>
+          <Textarea
+            placeholder={Write.detail.placeholder("역삼1동")}
+            onChange={handleTextarea}
+            value={textarea}
+            className="border border-gray-300 "
+          />
+
           <div>
             <button
               className="py-2 px-4 font-bold bg-gray-200 rounded-md cursor-pointer"
